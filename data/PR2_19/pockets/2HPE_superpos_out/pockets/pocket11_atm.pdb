@@ -1,0 +1,46 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 5.0989
+HEADER 1  - Number of V. Vertices             :    36
+HEADER 2  - Mean alpha-sphere radius          : 4.1870
+HEADER 3  - Mean alpha-sphere SA              : 0.6833
+HEADER 4  - Mean B-factor                     : 0.1436
+HEADER 5  - Hydrophobicity Score              : 5.5556
+HEADER 6  - Polarity Score                    :     5
+HEADER 7  - Volume Score                      : 3.3333
+HEADER 8  - Real volume (approximation)       : 1572.7192
+HEADER 9  - Charge Score                      :     1
+HEADER 10 - Local hydrophobic density Score   : 5.0000
+HEADER 11 - Number of apolar alpha sphere     :     6
+HEADER 12 - Proportion of apolar alpha sphere : 0.1667
+ATOM     45    O TRP A   6      14.328  12.258   3.641  1.00 18.20           O 0
+ATOM   1424   CA ASN B  88      14.839  19.849   2.461  1.00 11.10           C 0
+ATOM   1427   CB ASN B  88      13.533  20.564   2.064  1.00 15.50           C 0
+ATOM   1421  NH1 ARG B  87      13.927  14.318   5.794  1.00  9.20           N 1
+ATOM   1422  NH2 ARG B  87      11.880  14.870   6.663  1.00 10.60           N 0
+ATOM    979    O ASP B  29      11.726  19.462   5.418  1.00 13.50           O 0
+ATOM   1423    N ASN B  88      14.879  19.546   3.948  1.00  7.90           N 0
+ATOM   1452  OG1 THR B  91      18.026  16.947   1.285  1.00 12.60           O 0
+ATOM     37    O LEU A   5      16.768  14.027   5.400  1.00 12.00           O 0
+ATOM   1453  CG2 THR B  91      18.678  15.827   3.282  1.00 11.20           C 0
+ATOM   1415    O ARG B  87      16.813  18.521   3.890  1.00  7.00           O 0
+ATOM     43   CA TRP A   6      16.766  12.105   3.430  1.00 14.00           C 0
+ATOM     52  CE3 TRP A   6      17.178  13.289   0.118  1.00 20.60           C 0
+ATOM   1416   CB ARG B  87      15.440  17.370   6.386  1.00  5.60           C 0
+ATOM   1414    C ARG B  87      15.940  19.055   4.546  1.00  7.00           C 0
+ATOM     54  CZ3 TRP A   6      17.463  14.181  -0.933  1.00 22.20           C 0
+ATOM    990  OD1 ASP B  30       8.832  20.868   4.267  1.00 20.60           O 0
+ATOM    980   CB ASP B  29       9.523  18.297   7.355  1.00 15.70           C 0
+ATOM    983  OD2 ASP B  29       7.892  16.802   8.089  1.00 23.10           O 1
+ATOM    981   CG ASP B  29       9.123  16.970   7.919  1.00 19.00           C 0
+ATOM   1426    O ASN B  88      16.659  20.286   0.948  1.00 11.30           O 0
+ATOM    991  OD2 ASP B  30       7.318  21.107   5.860  1.00 22.40           O 1
+ATOM   1517   CA UNK S   2       4.909  18.996   7.467  1.00 62.80           C 0
+ATOM   1520   CB UNK S   2       4.096  19.909   6.563  1.00 69.40           C 0
+ATOM   1516    N UNK S   2       4.480  17.585   7.475  1.00 59.20           N 0
+ATOM   1515   CB UNK S   1       3.630  14.937   6.779  1.00 31.60           C 0
+TER
+END

@@ -1,0 +1,49 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : 4.6429
+HEADER 1  - Number of V. Vertices             :    40
+HEADER 2  - Mean alpha-sphere radius          : 3.8908
+HEADER 3  - Mean alpha-sphere SA              : 0.5786
+HEADER 4  - Mean B-factor                     : 0.5007
+HEADER 5  - Hydrophobicity Score              : 8.8333
+HEADER 6  - Polarity Score                    :     4
+HEADER 7  - Volume Score                      : 4.0000
+HEADER 8  - Real volume (approximation)       : 1608.4003
+HEADER 9  - Charge Score                      :     1
+HEADER 10 - Local hydrophobic density Score   : 18.0000
+HEADER 11 - Number of apolar alpha sphere     :    20
+HEADER 12 - Proportion of apolar alpha sphere : 0.5000
+ATOM   1342    NAARG B  72      19.159  25.661  -5.103  0.60 18.59           N 0
+ATOM   1348    OAARG B  72      17.214  23.884  -4.306  0.60 18.75           O 0
+ATOM   1360  NH1AARG B  72      17.480  23.519  -9.190  0.60 57.46           N 1
+ATOM   1362  NH2AARG B  72      19.612  23.227  -9.956  0.60 55.43           N 0
+ATOM   1358   CZAARG B  72      18.635  24.049  -9.567  0.60 49.71           C 0
+ATOM   1339   CB VAL B  71      21.123  24.686  -3.072  1.00 22.12           C 0
+ATOM   1336   CA VAL B  71      21.334  25.793  -4.115  1.00 20.04           C 0
+ATOM   1340  CG1 VAL B  71      22.417  23.966  -2.695  1.00 32.90           C 0
+ATOM   1329    O LYS B  70      23.974  25.986  -4.947  1.00 26.58           O 0
+ATOM   1515   CB ALA B  92      19.784  20.906  -1.245  1.00 20.59           C 0
+ATOM   1514    O ALA B  92      22.903  20.077  -1.556  1.00 23.02           O 0
+ATOM   1325   NZ LYS B  69      27.032  22.299  -3.084  1.00 57.23           N 1
+ATOM   1331   CG LYS B  70      23.569  29.778  -5.513  1.00 32.04           C 0
+ATOM   1356   NEAARG B  72      18.826  25.365  -9.559  0.60 43.14           N 0
+ATOM   1332   CD LYS B  70      23.995  30.599  -6.744  1.00 41.18           C 0
+ATOM   1333   CE LYS B  70      22.796  31.352  -7.292  1.00 51.73           C 0
+ATOM   1330   CB LYS B  70      24.722  28.907  -5.036  1.00 22.73           C 0
+ATOM   1352   CGAARG B  72      17.972  26.822  -7.715  0.60 26.36           C 0
+ATOM   1337    C VAL B  71      19.986  26.450  -4.439  1.00 18.96           C 0
+ATOM   1328    C LYS B  70      23.520  26.876  -4.207  1.00 20.14           C 0
+ATOM   1354   CDAARG B  72      17.876  26.402  -9.173  0.60 35.34           C 0
+ATOM   1334   NZ LYS B  70      23.114  32.148  -8.531  1.00 70.14           N 1
+ATOM   1269   CG GLU B  63      18.158  31.739  -7.136  1.00 37.60           C 0
+ATOM   1270   CD GLU B  63      18.385  33.073  -7.847  1.00 47.14           C 0
+ATOM   1272  OE2 GLU B  63      17.517  33.483  -8.658  1.00 64.02           O 1
+ATOM   1338    O VAL B  71      19.763  27.605  -4.108  1.00 17.00           O 0
+ATOM   1268   CB GLU B  63      18.523  31.808  -5.680  1.00 22.92           C 0
+ATOM   1265   CA GLU B  63      17.974  30.707  -4.782  1.00 15.20           C 0
+ATOM   1335    N VAL B  71      22.296  26.824  -3.706  1.00 18.31           N 0
+TER
+END
