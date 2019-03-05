@@ -64,7 +64,6 @@ transition: linear
 
 ```{r include=FALSE, echo=FALSE, eval=TRUE}
 library(knitr)
-library(pheatmap)
 #library(kableExtra)
 # library(formattable)
 options(width = 300)
@@ -111,3 +110,31 @@ Le but du projet est d'étudier les différents sites de liaison de la protéase
 * Selection des poches d'intérêt
 
 * Etude des interactions entre les résidus de ces poches et les autres résidus des PR2.
+
+
+# Estimation des poches
+faite en utilisant le programme fpocket.
+
+Génération du programme `/home/hecini/Research/stage_HECINI/data/PR2_19/fpocket.sh` pour lancer l'estimation des poches sur les 19 PR2.
+
+les fichiers output se trouvent dans : ` `
+
+
+# Dénombrement des poches par protéine
+fait manuellement
+[résultats](pdf/nombre_poches.pdf)
+
+pdb | poche | poche prin |
+----|-------|------------|
+1HSI|   2   |    0       |
+1HSI|   2   |    0       |
+
+
+```{r}
+pdb <- c("1HSI", "3S45")
+nbr.pocket <- c(10,15)
+```
+
+- etudier la repartition du nombre de poches par protéine.
+
+
