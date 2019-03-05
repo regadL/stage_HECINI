@@ -81,14 +81,37 @@ options(scipen = 12) ## Max number of digits for non-scientific notation
 # knitr::asis_output("\\footnotesize")
 ```
 
+**Participants** : Leslie Regad (LR) et Akram Hecini (AH)
 
-# Objectif
-Le projet se divisera en deux parties :  
+[Résultats obtenus par Akram] (../pocket_PR2.html)
+# Estimation des poches
 
-* projet 1 : recherche d'un nouveau site de liaison chez PR2 : [Avancée du projet](pocket_PR2.html)  
-* projet 2 : étude de la conservation des molécules d'eau chez PR1 et PR2
+Akram a travaillé sur l'estimation des poches des 19 PR2  
+
+* problèmes rencontrés   
+    + PockDrug ne calcule pas la druggabilité pour des poches trop petites   
+    $\rightarrow$ LR essaie de trouver le programme pour voir si on peut supprimer cette condition  
+    + PockDrug et fpocket ne donne pas les mêmes poches (en termes de résidus)  
+    Exemple sur 1HSH :   
+    Regarder si dans pockDrug le paramètre du diamètre a changé.
 
 
+# Caractérisation des poches
 
-# Bilan des meetings
+* pour chaque protéine, AH a regardé combien de poches sont extraites  
+* AK doit aussi regarder la taille de l'ensemble des poches : 
+    + en définissant taille des poches comme le nombre de résidus  
+    + en définissant taille des poches comme le nombre d'atomes  
+    Regarder cela pour l'ensemble des protéines et pour chaque protéine
+    
+* Il faut maintenant calculé le chevauchement entre toutes les poches pour identifier les poches communes.  
+  LR a fourni le programme `script/scrOverlapScore/main_Overlap_arg.py`   
+  Pour utiliser ce programme AK doit : 
+      + créez un répertoire qui contient les fichiers pdb des poches extraites des 19 PR2 en les renommants  
+      + créez un répertoire qui contient les fichiers pdb des 19 PR2.  
+      + lancer le programme sur ces données  
+      + analyser les résultats pour déterminer quelles sont les poches similaires.
+    
+
+
 

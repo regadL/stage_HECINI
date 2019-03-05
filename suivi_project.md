@@ -1,7 +1,7 @@
 ---
 title: "Stage de Akram HECINI (M1-BI)"
 author: "Leslie REGAD et Akram HECINI"
-date: '2019-02-27'
+date: '2019-03-05'
 output:
   html_document:
     code_folding: show #hide
@@ -74,4 +74,6 @@ Le projet se divisera en deux parties :
 
 
 # Bilan des meetings
+
+* meeting du 05/03/2019 : [bilan](meetings/meeting_2019_03_05.html)
 
