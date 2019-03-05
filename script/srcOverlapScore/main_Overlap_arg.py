@@ -4,10 +4,15 @@
 import sys
 
 
-pathsrc="/home/lregad/Research/Projects/src/srcOverlapScore/pocketgeneral/"
+#pathsrc="/home/lregad/Research/Projects/src/srcOverlapScore/pocketgeneral/"
+
+pathsrc="/home/hecini/Research/stage_HECINI/script/srcOverlapScore/pocketgeneral/"
+
 sys.path.append(pathsrc)
+
 from mainPocketOverlap_uniqSO_correspondingPocket import *
 
+#import mainPocketOverlap_uniqSO_correspondingPocket
 
 #----------------------------------#
 #           personal path          #
