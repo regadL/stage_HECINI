@@ -1,0 +1,49 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 7.8722
+HEADER 1  - Number of V. Vertices             :    42
+HEADER 2  - Mean alpha-sphere radius          : 3.7624
+HEADER 3  - Mean alpha-sphere SA              : 0.5451
+HEADER 4  - Mean B-factor                     : 0.1380
+HEADER 5  - Hydrophobicity Score              : 28.4444
+HEADER 6  - Polarity Score                    :     5
+HEADER 7  - Volume Score                      : 4.6667
+HEADER 8  - Real volume (approximation)       : 1198.7783
+HEADER 9  - Charge Score                      :     0
+HEADER 10 - Local hydrophobic density Score   : 18.0000
+HEADER 11 - Number of apolar alpha sphere     :    19
+HEADER 12 - Proportion of apolar alpha sphere : 0.4524
+ATOM    945   CD GLU B  21      20.291  34.833  14.231  1.00 14.16           C 0
+ATOM    947  OE2 GLU B  21      20.425  34.045  15.199  1.00 15.30           O 1
+ATOM    946  OE1 GLU B  21      20.269  36.065  14.392  1.00 21.78           O 0
+ATOM   1408    O PRO B  81      12.098  33.456  15.900  1.00 12.64           O 0
+ATOM   1418  CG2 ILE B  82      15.383  30.155  14.908  1.00 15.91           C 0
+ATOM   1417  CG1 ILE B  82      13.828  30.586  16.840  1.00 16.29           C 0
+ATOM   1413   CA ILE B  82      13.235  31.340  14.463  1.00  9.15           C 0
+ATOM    944   CG GLU B  21      20.167  34.216  12.842  1.00 12.73           C 0
+ATOM   1427  ND2 ASN B  83      15.008  34.356   9.640  1.00  9.95           N 0
+ATOM   1420    N ASN B  83      14.053  31.458  12.133  1.00  5.61           N 0
+ATOM    943   CB GLU B  21      19.816  35.138  11.705  1.00 10.57           C 0
+ATOM    942    O GLU B  21      17.859  33.277  10.413  1.00  7.95           O 0
+ATOM   1419  CD1 ILE B  82      14.619  29.754  17.825  1.00 18.55           C 0
+ATOM   1426  OD1 ASN B  83      12.961  33.410   9.904  1.00 11.61           O 0
+ATOM   1425   CG ASN B  83      14.184  33.316   9.806  1.00  9.38           C 0
+ATOM   1401    O THR B  80       9.330  32.992  13.278  1.00 11.81           O 0
+ATOM   1412    N ILE B  82      11.836  31.520  14.844  1.00 10.05           N 0
+ATOM    863  CG2 VAL B  10      21.342  29.895  15.083  1.00 16.93           C 0
+ATOM    955    N LEU B  23      18.739  28.853  11.492  1.00  6.05           N 0
+ATOM    959   CB LEU B  23      18.116  27.576  13.463  1.00  9.31           C 0
+ATOM    950    C VAL B  22      19.621  29.703  10.965  1.00  7.64           C 0
+ATOM   1423    O ASN B  83      15.923  29.502  11.356  1.00  7.78           O 0
+ATOM    949   CA VAL B  22      18.977  30.782  10.084  1.00  8.17           C 0
+ATOM    846   NE ARG B   8      20.658  29.022  21.027  1.00 33.53           N 0
+ATOM    847   CZ ARG B   8      19.920  29.322  22.078  1.00 36.08           C 0
+ATOM    848  NH1 ARG B   8      18.599  29.391  21.948  1.00 39.25           N 1
+ATOM    845   CD ARG B   8      20.141  28.739  19.672  1.00 25.70           C 0
+ATOM    962  CD2 LEU B  23      17.062  26.510  15.446  1.00 13.91           C 0
+ATOM    961  CD1 LEU B  23      19.550  26.448  15.199  1.00 12.82           C 0
+TER
+END
