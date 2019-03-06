@@ -112,23 +112,90 @@ Le but du projet est d'étudier les différents sites de liaison de la protéase
 * Etude des interactions entre les résidus de ces poches et les autres résidus des PR2.
 
 
+#04/03/2019 
+
+
 # Estimation des poches
-faite en utilisant le programme fpocket.
 
-Génération du programme `/home/hecini/Research/stage_HECINI/data/PR2_19/fpocket.sh` pour lancer l'estimation des poches sur les 19 PR2.
+- faite en utilisant le programme fpocket.
 
-les fichiers output se trouvent dans : ` `
+- Génération du programme `/home/hecini/Research/stage_HECINI/data/PR2_19/fpocket.sh` pour lancer l'estimation des poches sur les 19 PR2.
 
+- les fichiers output se trouvent dans :  `/home/hecini/Research/stage_HECINI/data/PR2_19/pockets`
+
+- Génération du programme copier_coller.sh `/home/hecini/Research/stage_HECINI/data/PR2_19/pockets/copier_coller.sh`  qui permet mettre les pockets et le fichier pdb en question dans un seul dossier. 
+
+- Visualisation des pockets via pymol. pour chaque protèine il y'a une session *.pse qui a été sauvegardé afin de revoir les résultats facilement. 
 
 # Dénombrement des poches par protéine
+
 fait manuellement
+
 [résultats](pdf/nombre_poches.pdf)
 
 pdb | poche | poche prin |
 ----|-------|------------|
 1HSI|   2   |    0       |
 1HSI|   2   |    0       |
+1HII| 5     |            |
+1JLD|10     |            |
+1IDB|9      |            | 
+2HPE|11 ?   |            |
+3EC0|9 0    |            |
+4UPJ|6      | 0 et 1     |
+1HSH|7      |0 et 2     |
+1IVP|9 
+3ECG| 11| 0|
+5UPJ| 6| 0|
+1HSI| 10| //|
+1IVQ |7| 0|
+2MIP |7 ||
+3S45 |10 |0 et 1
+6UPJ |6 | 0 1 et 8
+1IDA |5 | 0 1 et 2
+3EBZ |10 |0|
+3UPJ |7 |0
 
+# Le 05/03/2019 et le 06/03/19 
+
+#Création d'un nouveau répertoir contenant deux sous_repertoires 
+
+    --> Pockets qui contient les fichiers pdb des poches. Les fichier pdb ont été renomés en utilisant 
+        un script bash rename.sh
+        
+    --> proteins : qui contient les 19 strcutures renomées avec rename.sh
+    
+    -->rename.sh est modifié selon le fichier que l'on souhaite renomer. 
+    
+  
+#Calcul des scores et analyse de données 
+
+- Développer un programme python pour calculer les scores de similarité entre les poches
+    [score_v2.py](script/score_v2.py) 
+- génération d'un fichier [scores.csv](script/score.csv) 
+- Préparation du fichier csv  avec R pour analyser les données:
+
+    --> diviser la 1ere colonne en deux pour séparer les noms des poches
+    
+    --> Transformation du dataFrame en Matrix numérique 
+    
+    --> générer un pheatmap
+  
+  En utilisant [ ce script.R ](script/scores_analysis.R) 
+  
+
+![pheatmap des poches](script/Rplot.png)
+
+  
+  
+#Bibliotheque :
+
+  lecture de "Damm KL, Ung PM, Quintero JJ, Gestwicki JE, Carlson HA. A poke in the eye: inhibiting HIV-1 protease through its flap-recognition pocket. Biopolymers. 200889:643-52"
+
+
+
+  
+  
 
 ```{r}
 pdb <- c("1HSI", "3S45")
