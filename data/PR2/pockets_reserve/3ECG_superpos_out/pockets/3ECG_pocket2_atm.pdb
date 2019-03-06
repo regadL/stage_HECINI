@@ -1,0 +1,65 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 8.1180
+HEADER 1  - Number of V. Vertices             :    81
+HEADER 2  - Mean alpha-sphere radius          : 3.8196
+HEADER 3  - Mean alpha-sphere SA              : 0.5992
+HEADER 4  - Mean B-factor                     : 0.1989
+HEADER 5  - Hydrophobicity Score              : 31.6667
+HEADER 6  - Polarity Score                    :     8
+HEADER 7  - Volume Score                      : 4.5833
+HEADER 8  - Real volume (approximation)       : 1766.2161
+HEADER 9  - Charge Score                      :     1
+HEADER 10 - Local hydrophobic density Score   : 13.3913
+HEADER 11 - Number of apolar alpha sphere     :    23
+HEADER 12 - Proportion of apolar alpha sphere : 0.2840
+ATOM   1297  OE1 GLU B  65      24.113  33.897  -4.344  1.00 58.53           O 0
+ATOM   1298  OE2 GLU B  65      25.227  34.385  -2.595  1.00 36.02           O 1
+ATOM   1338   CE LYS B  70      25.394  31.079  -6.629  1.00 53.45           C 0
+ATOM   1339   NZ LYS B  70      25.659  31.750  -7.935  1.00 63.44           N 1
+ATOM   1296   CD GLU B  65      24.394  33.670  -3.154  1.00 29.54           C 0
+ATOM   1324    C LYS B  69      25.973  27.800  -1.986  1.00 12.89           C 0
+ATOM   1331    N LYS B  70      25.526  27.522  -3.195  1.00 15.58           N 0
+ATOM   1335   CB LYS B  70      24.687  28.976  -4.967  1.00 18.03           C 0
+ATOM   1317    O ASN B  68      29.805  28.031  -1.512  1.00 25.45           O 0
+ATOM    885    O THR B  12      24.453  32.230   6.106  1.00 11.77           O 0
+ATOM    903  CE2 TYR B  14      25.146  36.825   1.644  1.00 23.47           C 0
+ATOM    887  OG1 THR B  12      25.853  34.791   7.432  1.00 12.42           O 0
+ATOM   1320  OD1 ASN B  68      31.568  30.872   1.717  1.00 53.64           O 0
+ATOM   1314    N ASN B  68      28.848  28.865   1.842  1.00 15.80           N 0
+ATOM   1306    N LEU B  67      26.739  28.730   3.605  1.00 13.43           N 0
+ATOM   1293    O GLU B  65      23.176  31.652   1.757  1.00 10.02           O 0
+ATOM   1315   CA ASN B  68      29.655  29.017   0.635  1.00 20.04           C 0
+ATOM   1294   CB GLU B  65      23.902  32.254  -1.087  1.00 13.21           C 0
+ATOM    901  CD2 TYR B  14      24.138  35.977   1.193  1.00 18.70           C 0
+ATOM   1299    N VAL B  66      24.307  29.768   1.249  1.00 10.23           N 0
+ATOM   1325    O LYS B  69      25.400  28.619  -1.298  1.00 16.11           O 0
+ATOM   1292    C GLU B  65      23.578  30.835   0.940  1.00  9.45           C 0
+ATOM   1300   CA VAL B  66      24.630  29.458   2.632  1.00 10.22           C 0
+ATOM   1301    C VAL B  66      25.862  28.562   2.631  1.00 10.70           C 0
+ATOM    945    C VAL B  20      19.795  35.361   8.125  1.00  8.43           C 0
+ATOM    946    O VAL B  20      20.833  34.898   7.720  1.00  9.58           O 0
+ATOM    888  CG2 THR B  12      24.709  35.545   9.360  1.00 15.57           C 0
+ATOM    950    N GLU B  21      19.449  35.310   9.378  1.00  7.20           N 0
+ATOM    940   CB PRO B  19      21.064  39.408   4.710  1.00  8.74           C 0
+ATOM    886   CB THR B  12      24.540  35.003   7.957  1.00  9.26           C 0
+ATOM    904   CZ TYR B  14      24.847  38.139   1.924  1.00 16.77           C 0
+ATOM    905   OH TYR B  14      25.757  39.067   2.352  1.00 18.48           O 0
+ATOM    892    O ALA B  13      21.294  35.162   4.308  1.00  8.95           O 0
+ATOM    889    N ALA B  13      22.636  33.494   5.888  1.00  8.40           N 0
+ATOM    891    C ALA B  13      21.708  34.178   3.736  1.00  8.14           C 0
+ATOM    890   CA ALA B  13      22.340  33.059   4.528  1.00  8.94           C 0
+ATOM    884    C THR B  12      23.677  33.072   6.574  1.00  8.63           C 0
+ATOM    902  CE1 TYR B  14      23.552  38.603   1.766  1.00 16.80           C 0
+ATOM    943    N VAL B  20      19.545  36.653   6.040  1.00  7.60           N 0
+ATOM    938    C PRO B  19      19.229  37.840   5.535  1.00  7.84           C 0
+ATOM    939    O PRO B  19      18.344  38.589   5.956  1.00  8.48           O 0
+ATOM    944   CA VAL B  20      18.835  36.078   7.191  1.00  7.59           C 0
+ATOM   1316    C ASN B  68      29.088  28.229  -0.535  1.00 18.64           C 0
+ATOM   1322    N LYS B  69      27.851  27.766  -0.444  1.00 15.48           N 0
+ATOM   1295   CG GLU B  65      23.665  32.524  -2.524  1.00 16.29           C 0
+TER
+END

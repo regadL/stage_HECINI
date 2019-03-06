@@ -1,0 +1,49 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 4.6078
+HEADER 1  - Number of V. Vertices             :    44
+HEADER 2  - Mean alpha-sphere radius          : 4.1643
+HEADER 3  - Mean alpha-sphere SA              : 0.5602
+HEADER 4  - Mean B-factor                     : 0.3635
+HEADER 5  - Hydrophobicity Score              : 19.5000
+HEADER 6  - Polarity Score                    :     7
+HEADER 7  - Volume Score                      : 4.5000
+HEADER 8  - Real volume (approximation)       : 1723.4672
+HEADER 9  - Charge Score                      :     1
+HEADER 10 - Local hydrophobic density Score   : 4.0000
+HEADER 11 - Number of apolar alpha sphere     :     6
+HEADER 12 - Proportion of apolar alpha sphere : 0.1364
+ATOM   1056   CG ASN B  41       4.008  31.993  -8.783  1.00 28.30           C 0
+ATOM   1054    O ASN B  41       4.688  31.733  -5.798  1.00 18.70           O 0
+ATOM   1058  ND2 ASN B  41       3.111  31.139  -8.264  1.00 27.60           N 0
+ATOM   1057  OD1 ASN B  41       4.625  31.761  -9.844  1.00 34.30           O 0
+ATOM   1199   CB LYS B  60       8.833  25.936  -5.789  1.00 16.10           C 0
+ATOM   1198    O LYS B  60      10.566  28.760  -5.891  1.00 19.40           O 0
+ATOM   1195    N LYS B  60       8.521  27.890  -4.286  1.00 16.40           N 0
+ATOM   1075   CB SER B  43       1.364  27.061  -2.753  1.00 14.30           C 0
+ATOM   1182  OE2 GLU B  58       4.819  24.166  -2.362  1.00 20.90           O 1
+ATOM   1076   OG SER B  43       0.395  26.353  -3.504  1.00 15.80           O 0
+ATOM   1202   CE LYS B  60       6.435  23.044  -5.863  1.00 20.30           C 0
+ATOM   1200   CG LYS B  60       7.915  24.898  -5.198  1.00 16.50           C 0
+ATOM   1201   CD LYS B  60       7.665  23.824  -6.220  1.00 15.90           C 0
+ATOM   1177    O GLU B  58       4.879  29.098  -2.183  1.00 18.00           O 0
+ATOM   1062    O TYR B  42       0.731  30.384  -4.192  1.00 14.70           O 0
+ATOM   1179   CG GLU B  58       5.539  26.108  -1.195  1.00 16.80           C 0
+ATOM   1061    C TYR B  42       1.758  30.286  -3.526  1.00 14.50           C 0
+ATOM   1060   CA TYR B  42       2.917  31.266  -3.731  1.00 15.10           C 0
+ATOM   1071    N SER B  43       1.883  29.421  -2.527  1.00 15.50           N 0
+ATOM   1208   CB ASN B  61      12.503  27.112  -8.061  1.00 20.80           C 0
+ATOM   1207    O ASN B  61      13.138  29.503  -7.003  1.00 18.00           O 0
+ATOM   1211  ND2 ASN B  61      13.881  27.540  -9.985  1.00 24.90           N 0
+ATOM   1187   CB TYR B  59       8.325  30.834  -2.445  1.00 14.80           C 0
+ATOM   1184   CA TYR B  59       7.616  29.487  -2.675  1.00 15.40           C 0
+ATOM   1034    O LEU B  38       8.738  35.507  -4.194  1.00 21.20           O 0
+ATOM    884  OE2 GLU B  16      14.325  33.624  -5.777  1.00 21.30           O 1
+ATOM   1218  CG2 VAL B  62      12.247  30.939  -3.688  1.00 11.60           C 0
+ATOM   1055   CB ASN B  41       4.270  33.278  -8.009  1.00 23.20           C 0
+ATOM   1190  CD2 TYR B  59       7.003  32.909  -3.056  1.00 14.70           C 0
+TER
+END

@@ -1,0 +1,62 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 12.2706
+HEADER 1  - Number of V. Vertices             :    65
+HEADER 2  - Mean alpha-sphere radius          : 4.0416
+HEADER 3  - Mean alpha-sphere SA              : 0.6423
+HEADER 4  - Mean B-factor                     : 0.4162
+HEADER 5  - Hydrophobicity Score              : 14.5714
+HEADER 6  - Polarity Score                    :    10
+HEADER 7  - Volume Score                      : 3.8571
+HEADER 8  - Real volume (approximation)       : 2498.9011
+HEADER 9  - Charge Score                      :     2
+HEADER 10 - Local hydrophobic density Score   : 12.6364
+HEADER 11 - Number of apolar alpha sphere     :    22
+HEADER 12 - Proportion of apolar alpha sphere : 0.3385
+ATOM   1182   CE LYS B  57       1.542  35.768   1.953  1.00 16.55           C 0
+ATOM   1090   CB PRO B  44      -2.446  29.694   1.114  1.00 15.79           C 0
+ATOM   1165   CG ASN B  55      -2.633  30.872   8.225  1.00 11.66           C 0
+ATOM   1079   OH TYR B  42      -0.717  35.484  -0.945  1.00 24.58           O 0
+ATOM   1164   CB ASN B  55      -1.200  31.240   7.942  1.00 11.04           C 0
+ATOM   1167  ND2 ASN B  55      -3.114  29.888   7.506  1.00 13.57           N 0
+ATOM   1171    O THR B  56       1.186  30.076   3.601  1.00  9.81           O 0
+ATOM   1096    O LYS B  45      -0.341  27.698   5.300  1.00 13.15           O 0
+ATOM   1180   CG LYS B  57       2.303  33.365   2.003  1.00 11.47           C 0
+ATOM   1076  CE1 TYR B  42       0.193  33.260  -0.882  1.00 20.43           C 0
+ATOM   1087   CA PRO B  44      -1.048  29.117   1.019  1.00 15.38           C 0
+ATOM   1350   CA GLY B  78       5.434  32.926   7.895  1.00 11.91           C 0
+ATOM   1163    O ASN B  55       1.833  31.291   8.102  1.00 12.51           O 0
+ATOM   1360  OD2 ASP B  79       2.970  36.535  10.654  1.00 35.40           O 1
+ATOM   1183   NZ LYS B  57       2.142  37.124   1.813  1.00 20.62           N 1
+ATOM   1170    C THR B  56       2.230  30.404   4.156  1.00 10.46           C 0
+ATOM   1168    N THR B  56       1.313  29.903   6.431  1.00  8.87           N 0
+ATOM   1169   CA THR B  56       2.482  30.176   5.651  1.00  9.24           C 0
+ATOM   1345    O THR B  77       5.251  32.012   5.359  1.00 11.58           O 0
+ATOM   1347  OG1 THR B  77       6.390  33.883   3.151  1.00 11.28           O 0
+ATOM   1175    N LYS B  57       3.253  30.873   3.508  1.00  9.95           N 0
+ATOM   1162    C ASN B  55       1.092  30.442   7.600  1.00  9.67           C 0
+ATOM   1181   CD LYS B  57       2.535  34.737   1.444  1.00 13.58           C 0
+ATOM   1349    N GLY B  78       6.477  32.919   6.915  1.00  9.03           N 0
+ATOM   1344    C THR B  77       6.300  32.479   5.697  1.00  9.06           C 0
+ATOM   1019    N GLY B  35      10.460  37.760   7.677  1.00 18.03           N 0
+ATOM   1352    O GLY B  78       7.152  33.790   9.311  1.00 10.90           O 0
+ATOM   1018   CB ALA B  34      10.026  35.595   9.811  1.00 13.20           C 0
+ATOM   1359  OD1 ASP B  79       5.136  37.048  11.058  1.00 33.43           O 0
+ATOM   1015   CA ALA B  34      10.447  35.440   8.374  1.00 12.98           C 0
+ATOM   1026    O ILE B  36       9.293  37.831   3.225  1.00 23.92           O 0
+ATOM   1346   CB THR B  77       7.617  33.744   3.863  1.00 11.78           C 0
+ATOM   1351    C GLY B  78       5.957  33.477   9.208  1.00 13.31           C 0
+ATOM   1010    O VAL B  33       9.832  33.351   6.799  1.00  9.06           O 0
+ATOM   1020   CA GLY B  35      11.050  39.048   7.287  1.00 21.73           C 0
+ATOM   1021    C GLY B  35      11.543  39.186   5.844  1.00 24.22           C 0
+ATOM   1023    N ILE B  36      11.188  38.240   4.995  1.00 23.99           N 0
+ATOM   1035   CB GLU B  37       8.823  40.649   0.422  1.00 28.53           C 0
+ATOM   1036   CG GLU B  37       7.293  40.886   0.243  1.00 32.66           C 0
+ATOM   1022    O GLY B  35      12.291  40.116   5.532  1.00 26.02           O 0
+ATOM   1025    C ILE B  36      10.322  38.353   2.797  1.00 23.18           C 0
+ATOM   1031    N GLU B  37      10.363  39.060   1.673  1.00 22.14           N 0
+TER
+END
