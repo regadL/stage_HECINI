@@ -184,7 +184,7 @@ pdb | poche | poche prin |
   En utilisant [ ce script.R ](script/scores_analysis.R) 
   
 
-![pheatmap des poches](script/Rplot.png)
+![pheatmap des poches](script/pheatmap.png)
 
   
   
@@ -207,8 +207,44 @@ pdb | poche | poche prin |
 
 - aucune rédation n'a été commencée 
 
+#13/03/19 
 
+- Recommencer la determination des poches avec fpocket 
+- J'ai refait le calcul des scores de similarité entre les poches 
+- Analyser les scores 
+- Classification 
+
+  ![Classification](script/arbre_bars.png)
+
+la figure là haut a été générée en utilisant le code appelé [bar_colored.R](script/bar_colored.R)
+
+# 2 méthodes de détermination du nombre de clusters 
+
+1) Premiere méthode (la méthode des moindre carrées) :  diviser l'arbre à plusieurs Hauteurs différentes 
+
+  - génération des clusters
   
+  - calculer le score moyen par cluster 
+  
+  - calculer le score moyen général ( la moyenne des scores moyen ) 
+  
+  le nombre de cluster le plus intéressant est celui qui permet d'obtenir des scores moyens trés proches de score moyen général. On calcul une valeur noté y. plus Y est petit plus la velur de H est intéressante 
+  
+  - visualisation avec Pymol pour etre sur qu'il s'agit des poches différentes 
+  
+  cette méthode est réalisé dans (script/scores_analysis.R) 
+
+2) Deuxieme méthode 
+- couper l'arbre à plusieurs hauteurs 
+- génération des clusters 
+- calculer la similarité entre les clusters 
+- création des matrices avec des scores de similarité entre les clusters 
+- ploter la somme des scores (seulement la semi matrice sans la diag) en fonction du nombre de cluster 
+- La valeur de H la plus intéressante est celle qui permet d'obtenir un score faible (MAIS DES VALEURS DE DIAG IMPORTANTE AUSSI)
+
+- cette méthode est réalisé par le code [score_inter.R](script/score_inter.R)
+
+  ![la somme en fonction des H ](script/Méthode2_nbr_Clstr.png)
   
 
 ```{r}
