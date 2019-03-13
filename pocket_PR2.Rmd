@@ -158,7 +158,7 @@ pdb | poche | poche prin |
 
 # Le 05/03/2019 et le 06/03/19 
 
-#Création d'un nouveau répertoir contenant deux sous_repertoires 
+#Création de : 
 
     --> Pockets qui contient les fichiers pdb des poches. Les fichier pdb ont été renomés en utilisant 
         un script bash rename.sh
@@ -192,6 +192,20 @@ pdb | poche | poche prin |
 
   lecture de "Damm KL, Ung PM, Quintero JJ, Gestwicki JE, Carlson HA. A poke in the eye: inhibiting HIV-1 protease through its flap-recognition pocket. Biopolymers. 200889:643-52"
 
+#07/03/19 
+
+- Classification des poches suivant leur descriptions ( kmeans et Hclust + méthode d'optimisation de nombre de clusters + visualisation avec ACP)
+
+- le script R utilisé est [classification.R](script/classification.R)
+
+- Développement d'un algorithme python qui permet de calculer le barycentre d'un ensemble de PDB dans un répertorie donnée et génération d'un fichier csv contenant 4 colonnes : le nom de pdb, les coordonées de barycentres x, y et z
+[cliquez ici pour voir le code python](script/positionnement.py). je modifie le code demain pour qu'ils calcule ces distances entre les structures de PR2 et pas les poches. 
+
+- Classification des poches suivant leur localisation 3D. Pour cela un script R appellé [Positionnement3D](script/positionnemnt3D.R) a été utilisé oû j'ai calculé la distance entre chaque poches et 1HSI0 (FAUDRAIT QUE JE FASSE ÇA POUR 1HSI et pas les poches de 1HSI) => à modifier pour demain 
+
+- J'ai commencé la comparaison des deux classifications obtenues 
+
+- aucune rédation n'a été commencée 
 
 
   

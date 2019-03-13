@@ -1,0 +1,46 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 1.5547
+HEADER 1  - Number of V. Vertices             :    36
+HEADER 2  - Mean alpha-sphere radius          : 3.7591
+HEADER 3  - Mean alpha-sphere SA              : 0.5513
+HEADER 4  - Mean B-factor                     : 0.3940
+HEADER 5  - Hydrophobicity Score              : 44.5556
+HEADER 6  - Polarity Score                    :     5
+HEADER 7  - Volume Score                      : 4.1111
+HEADER 8  - Real volume (approximation)       : 1205.7019
+HEADER 9  - Charge Score                      :     0
+HEADER 10 - Local hydrophobic density Score   : 4.0000
+HEADER 11 - Number of apolar alpha sphere     :     5
+HEADER 12 - Proportion of apolar alpha sphere : 0.1389
+ATOM   1442    O GLY B  94      26.628  16.770   3.462  1.00 11.56           O 0
+ATOM   1455   CB SER B  96      25.236  13.670   7.475  1.00 13.67           C 0
+ATOM   1446    O MET B  95      23.482  15.895   5.606  1.00 14.82           O 0
+ATOM     33   OG SER A   4      21.702   9.558   4.474  1.00 19.35           O 0
+ATOM   1440   CA GLY B  94      25.068  17.277   1.696  1.00 10.95           C 0
+ATOM     13   CG GLN A   2      27.060   9.834   7.802  1.00 26.39           C 0
+ATOM     15  OE1 GLN A   2      29.338  10.559   7.194  1.00 27.05           O 0
+ATOM   1456   OG SER B  96      26.629  13.747   7.793  1.00 13.78           O 0
+ATOM   1441    C GLY B  94      25.527  17.251   3.151  1.00 11.84           C 0
+ATOM     50  NE1 TRP A   6      20.121  11.604   1.240  1.00 16.99           N 0
+ATOM   1422    O THR B  91      21.239  17.296  -0.154  1.00 10.96           O 0
+ATOM   1420   CA THR B  91      20.155  17.228   2.017  1.00  8.99           C 0
+ATOM     53  CZ2 TRP A   6      19.762  13.175  -0.674  1.00 16.52           C 0
+ATOM     51  CE2 TRP A   6      19.375  12.404   0.410  1.00 16.13           C 0
+ATOM   1425  CG2 THR B  91      18.186  15.561   2.803  1.00  9.21           C 0
+ATOM     34    N LEU A   5      19.598  12.837   6.089  1.00 15.79           N 0
+ATOM   1423   CB THR B  91      18.931  16.310   1.704  1.00  8.71           C 0
+ATOM     29   CA SER A   4      21.028  10.968   6.300  1.00 18.77           C 0
+ATOM     20    O PHE A   3      22.685  12.265   8.174  1.00 21.29           O 0
+ATOM     19    C PHE A   3      22.277  11.131   8.367  1.00 21.08           C 0
+ATOM     38   CB LEU A   5      19.003  14.988   6.942  1.00 14.33           C 0
+ATOM     28    N SER A   4      21.532  10.438   7.553  1.00 19.66           N 0
+ATOM     12   CB GLN A   2      26.509   8.702   8.657  1.00 25.72           C 0
+ATOM     17    N PHE A   3      24.130  10.192   9.709  1.00 23.16           N 0
+ATOM     11    O GLN A   2      23.924   8.052  10.400  1.00 24.64           O 0
+ATOM     10    C GLN A   2      24.622   9.046  10.103  1.00 24.52           C 0
+TER
+END
