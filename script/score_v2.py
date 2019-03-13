@@ -14,12 +14,14 @@ import pandas as pd # pour transformer le dictionnaire en dataFrame
 
 #lecture des fichiers et creation d un dictionnaire 
 
-pdb_files = glob('/home/hecini/Research/stage_HECINI/data/PR2/pockets/*.pdb')
+
+
+pdb_files = glob('/home/hecini/Research/stage_HECINI/data/PR2/pdb_new/pockets/*.pdb')
 liste_finale = []
 dic = {}
 
 for fileName in pdb_files:
-	structure_id = fileName.rsplit('/', 1)[1][:-5]
+	structure_id = fileName.rsplit('/', 1)[1][:]
 	pdb_obj = PDB(fileName)
 	liste = []
 	for res in pdb_obj : 
@@ -54,7 +56,7 @@ for k in range(0,len(dic.keys())):
 
 dt = pd.DataFrame (dic_score.items(), columns=['poches', 'score'])
 
-dt.to_csv('score3.csv')
+dt.to_csv('nscore.csv')
 
 
 

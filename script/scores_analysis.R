@@ -1,5 +1,5 @@
 getwd()
-dt = read.table("/home/hecini/Research/stage_HECINI/script/score2.csv",sep = ",", header = T)
+dt = read.table("/home/hecini/Research/stage_HECINI/script/nscore.csv",sep = ",", header = T)
 dt = dt[,2:3]
 library(stringr)
 dt_new = as.data.frame(str_split_fixed(dt$poches, ";", 2))
@@ -89,14 +89,14 @@ plot(hc)
 
 ### score moyen par groupe ####
 
-par(mfrow = c(3,2))
-for (c in seq(1.1 , 3 , by = 0.1)){
-groupes=cutree(hc,h=c)
-nbr_groupes = max(groupes[])
+#par(mfrow = c(3,2))
+for (c in seq(1.1 , 3 , by = 0.1)){ #des valeurs de H differentes 
+groupes=cutree(hc,h=c) # je coupe 
+nbr_groupes = max(groupes[]) # la nombre de clusters générés 
 vect_score = NULL
-for (groupe in 1:nbr_groupes){
-nbr_ind = length(which(sort(groupes)[] == groupe))
-groupe_cluster = which(sort(groupes)[] == groupe)
+for (groupe in 1:nbr_groupes){ # pour chaque cluster 
+nbr_ind = length(which(sort(groupes)[] == groupe)) # je calcule le nombre d'inv par cluster
+groupe_cluster = which(sort(groupes)[] == groupe) #le nom de mes individus 
 s = 0
 comp = 0
 moy = 0
@@ -121,15 +121,15 @@ print(sum ((vect_score - mean(vect_score))^2)/length(vect_score))
 
 
 
-taille = max(groupes=cutree(hc,h=1.3))
-groupes=cutree(hc,h=1.3)
+taille = max(groupes=cutree(hc,h=1.2))
+
+groupes=cutree(hc,h=1.2)
+
 sort(groupes[])
 
 
 
 #numbre d'individus par cluster 
-
-
 
 for (x in 1:max(groupes[])){
 print(as.character(x))
@@ -137,14 +137,22 @@ print(length(which(sort(groupes[]) == x)))
 
 }
 
-
-
 ## récupếrer les membres des clusters
 
-nac = names(which(sort(groupes[]) == 9))
+nac = names(which(sort(groupes[]) == 17))
 writeLines(nac, sep = " ")
 
 
+
+
+
+for(v in 1:taille){
+  
+  nac = names(which(sort(groupes[]) == v))
+  print(as.character(v))
+  writeLines(nac, sep = " ")
+  
+}
 
 
 # étude de la variabilité ! 
@@ -162,6 +170,10 @@ for(v in 1:taille){
 }
 
 
+
+##############################
+##############################
+
 big_data = as.data.frame(do.call(rbind, var_data))
 
 par(mfrow = c(3,2))
@@ -172,3 +184,6 @@ for(b in 1:37){
 
 
 head(big_data)[,1:6]
+
+
+?matrix
