@@ -1,0 +1,63 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : 10.5444
+HEADER 1  - Number of V. Vertices             :    66
+HEADER 2  - Mean alpha-sphere radius          : 3.9403
+HEADER 3  - Mean alpha-sphere SA              : 0.6286
+HEADER 4  - Mean B-factor                     : 0.1453
+HEADER 5  - Hydrophobicity Score              : 9.2308
+HEADER 6  - Polarity Score                    :     8
+HEADER 7  - Volume Score                      : 3.9231
+HEADER 8  - Real volume (approximation)       : 2051.4644
+HEADER 9  - Charge Score                      :     4
+HEADER 10 - Local hydrophobic density Score   : 14.0000
+HEADER 11 - Number of apolar alpha sphere     :    18
+HEADER 12 - Proportion of apolar alpha sphere : 0.2727
+ATOM    801    O TRP B   6      25.397  25.227  23.049  1.00  7.40           O 0
+ATOM    809  CZ2 TRP B   6      28.072  25.419  27.643  1.00  8.36           C 0
+ATOM    811  CH2 TRP B   6      27.561  24.249  28.149  1.00  6.23           C 0
+ATOM    807  CE2 TRP B   6      28.339  25.458  26.253  1.00  8.30           C 0
+ATOM    810  CZ3 TRP B   6      27.319  23.164  27.319  1.00  7.28           C 0
+ATOM    805  CD2 TRP B   6      28.116  24.354  25.407  1.00  7.86           C 0
+ATOM    808  CE3 TRP B   6      27.673  23.148  25.989  1.00  7.25           C 0
+ATOM    806  NE1 TRP B   6      28.812  26.463  25.457  1.00  8.82           N 0
+ATOM    820   NZ LYS B   7      27.153  30.450  23.351  1.00 23.91           N 1
+ATOM    224    O ASP A  29      18.267  22.415  24.552  1.00 12.96           O 0
+ATOM    670   CA ASN A  88      21.385  19.319  25.531  1.00  7.02           C 0
+ATOM    669    N ASN A  88      20.851  19.667  24.215  1.00  6.41           N 0
+ATOM    667  NH1 ARG A  87      22.750  24.546  21.893  1.00  6.78           N 1
+ATOM    662   CB ARG A  87      21.488  21.397  21.481  1.00  6.32           C 0
+ATOM    660    C ARG A  87      21.681  19.618  23.195  1.00  5.28           C 0
+ATOM    673   CB ASN A  88      20.420  19.650  26.687  1.00  5.57           C 0
+ATOM    668  NH2 ARG A  87      20.818  25.753  22.066  1.00  7.56           N 0
+ATOM    661    O ARG A  87      22.846  19.252  23.265  1.00  6.93           O 0
+ATOM    698  OG1 THR A  91      25.572  19.963  22.769  1.00  8.23           O 0
+ATOM    697   CB THR A  91      25.921  19.033  23.734  1.00  5.41           C 0
+ATOM    672    O ASN A  88      22.947  17.588  26.035  1.00  7.77           O 0
+ATOM    699  CG2 THR A  91      27.286  19.401  24.279  1.00 10.46           C 0
+ATOM    793    O LEU B   5      24.780  22.536  21.012  1.00  7.46           O 0
+ATOM    799   CA TRP B   6      27.000  23.625  22.345  1.00  4.86           C 0
+ATOM    568  OG1 THR A  74      18.426  18.865  32.939  1.00 13.94           O 0
+ATOM    550    O ARG A  72      22.884  14.073  31.683  1.00 16.39           O 0
+ATOM    559   CA ALA A  73      20.354  14.893  31.212  1.00 12.89           C 0
+ATOM    563    N THR A  74      18.687  16.549  31.379  1.00 10.18           N 0
+ATOM    676  ND2 ASN A  88      18.920  18.190  27.944  1.00  8.41           N 0
+ATOM    562   CB ALA A  73      20.464  14.893  29.669  1.00 11.75           C 0
+ATOM    549    C ARG A  72      21.934  13.300  31.942  1.00 14.87           C 0
+ATOM    464  OD1 ASN A  61      21.502  15.827  37.191  1.00 19.87           O 0
+ATOM    558    N ALA A  73      20.666  13.590  31.754  1.00 13.10           N 0
+ATOM    459   CA ASN A  61      19.367  13.999  35.887  1.00 15.95           C 0
+ATOM    458    N ASN A  61      18.587  15.196  35.612  1.00 13.10           N 0
+ATOM    560    C ALA A  73      18.998  15.314  31.660  1.00 11.54           C 0
+ATOM    704   CB ALA A  92      25.585  14.906  26.936  1.00  6.97           C 0
+ATOM    700    N ALA A  92      26.016  16.117  24.898  1.00  7.77           N 0
+ATOM    701   CA ALA A  92      26.558  15.134  25.807  1.00  7.24           C 0
+ATOM    453   CB LYS A  60      17.293  17.664  36.867  1.00 15.17           C 0
+ATOM    454   CG LYS A  60      17.075  19.059  36.319  1.00 19.69           C 0
+ATOM    455   CD LYS A  60      17.144  20.130  37.362  1.00 22.72           C 0
+ATOM    465  ND2 ASN A  61      19.876  15.830  38.849  1.00 20.34           N 0
+TER
+END

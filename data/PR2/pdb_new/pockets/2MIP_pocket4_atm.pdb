@@ -1,0 +1,48 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 1.5227
+HEADER 1  - Number of V. Vertices             :    43
+HEADER 2  - Mean alpha-sphere radius          : 4.5168
+HEADER 3  - Mean alpha-sphere SA              : 0.7319
+HEADER 4  - Mean B-factor                     : 0.5108
+HEADER 5  - Hydrophobicity Score              : 9.9091
+HEADER 6  - Polarity Score                    :     6
+HEADER 7  - Volume Score                      : 3.0909
+HEADER 8  - Real volume (approximation)       : 2229.2517
+HEADER 9  - Charge Score                      :     0
+HEADER 10 - Local hydrophobic density Score   : 8.9231
+HEADER 11 - Number of apolar alpha sphere     :    13
+HEADER 12 - Proportion of apolar alpha sphere : 0.3023
+ATOM   1379  OD1 ASP B  79       4.330  36.654  10.677  1.00 38.45           O 0
+ATOM   1038   CB ALA B  34       9.880  35.530   9.970  1.00 11.28           C 0
+ATOM   1040   CA GLY B  35      10.533  38.780   7.166  1.00 26.48           C 0
+ATOM   1380  OD2 ASP B  79       3.794  36.927  12.861  1.00 38.00           O 1
+ATOM   1039    N GLY B  35       9.920  37.531   7.561  1.00 23.16           N 0
+ATOM   1037    O ALA B  34      11.934  36.698   7.871  1.00 20.15           O 0
+ATOM   1036    C ALA B  34      10.731  36.571   7.952  1.00 18.39           C 0
+ATOM   1384    O THR B  80       9.844  33.820  13.346  1.00 27.34           O 0
+ATOM   1375    C ASP B  79       6.345  33.105  12.236  1.00 26.76           C 0
+ATOM   1388    N PRO B  81       9.315  32.365  14.972  1.00 23.46           N 0
+ATOM   1389   CA PRO B  81      10.069  33.128  15.986  1.00 19.55           C 0
+ATOM   1376    O ASP B  79       5.624  32.439  12.984  1.00 24.33           O 0
+ATOM   1383    C THR B  80       9.281  32.757  13.693  1.00 23.92           C 0
+ATOM   1377   CB ASP B  79       4.478  34.749  12.061  1.00 33.19           C 0
+ATOM   1374   CA ASP B  79       5.746  34.198  11.377  1.00 28.48           C 0
+ATOM   1378   CG ASP B  79       4.213  36.230  11.922  1.00 35.98           C 0
+ATOM   1392   CB PRO B  81       9.792  32.371  17.263  1.00 20.40           C 0
+ATOM   1394   CD PRO B  81       8.622  31.154  15.512  1.00 20.39           C 0
+ATOM   1393   CG PRO B  81       9.130  31.032  16.913  1.00 20.65           C 0
+ATOM    372    O ILE A  50       5.498  28.871  16.141  1.00 30.37           O 0
+ATOM    382   CA GLY A  52       3.837  28.791  20.870  1.00 19.58           C 0
+ATOM    380    O GLY A  51       2.300  28.762  18.699  1.00 27.52           O 0
+ATOM    381    N GLY A  52       4.167  28.065  19.660  1.00 23.52           N 0
+ATOM    379    C GLY A  51       3.327  28.114  18.623  1.00 23.96           C 0
+ATOM    368    O GLY A  49       7.350  28.452  19.045  1.00 20.57           O 0
+ATOM    395   CZ PHE A  53       7.345  31.842  23.918  1.00 18.45           C 0
+ATOM    394  CE2 PHE A  53       5.991  32.013  23.619  1.00 16.28           C 0
+ATOM   1178  CG2 ILE B  54       2.870  28.878  13.710  1.00 20.73           C 0
+TER
+END

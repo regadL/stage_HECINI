@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : 3.3317
+HEADER 1  - Number of V. Vertices             :    38
+HEADER 2  - Mean alpha-sphere radius          : 4.1465
+HEADER 3  - Mean alpha-sphere SA              : 0.6619
+HEADER 4  - Mean B-factor                     : 0.3614
+HEADER 5  - Hydrophobicity Score              : 11.3750
+HEADER 6  - Polarity Score                    :     5
+HEADER 7  - Volume Score                      : 4.0000
+HEADER 8  - Real volume (approximation)       : 1638.8469
+HEADER 9  - Charge Score                      :     1
+HEADER 10 - Local hydrophobic density Score   : 5.0000
+HEADER 11 - Number of apolar alpha sphere     :     6
+HEADER 12 - Proportion of apolar alpha sphere : 0.1579
+ATOM    700    N ALA A  92      25.895  16.243  24.991  1.00 45.04           N 0
+ATOM    699  OG1 THR A  91      25.050  19.103  24.824  1.00 43.84           O 0
+ATOM    672    O ASN A  88      22.539  17.710  26.582  1.00 43.47           O 0
+ATOM    701   CA ALA A  92      26.286  15.153  25.870  1.00 45.82           C 0
+ATOM    704   CB ALA A  92      25.078  14.685  26.675  1.00 45.70           C 0
+ATOM    962  CH2 TRP B   6      29.273  20.176  26.161  1.00 70.56           C 0
+ATOM    961  CZ3 TRP B   6      28.397  21.280  26.261  1.00 69.70           C 0
+ATOM    673   CB ASN A  88      20.034  19.718  26.852  1.00 39.74           C 0
+ATOM    670   CA ASN A  88      21.095  19.455  25.766  1.00 41.29           C 0
+ATOM    696    O THR A  91      27.735  16.116  23.706  1.00 43.33           O 0
+ATOM    703    O ALA A  92      27.939  13.506  25.264  1.00 47.75           O 0
+ATOM    960  CZ2 TRP B   6      30.093  20.010  25.072  1.00 73.01           C 0
+ATOM    660    C ARG A  87      21.351  19.635  23.358  1.00 41.74           C 0
+ATOM    668  NH2 ARG A  87      22.147  25.640  22.997  1.00 43.31           N 0
+ATOM    669    N ASN A  88      20.583  19.782  24.437  1.00 41.24           N 0
+ATOM    662   CB ARG A  87      21.081  21.583  21.799  1.00 36.67           C 0
+ATOM    224    O ASP A  29      18.357  21.914  24.325  1.00 33.02           O 0
+ATOM    661    O ARG A  87      22.461  19.104  23.399  1.00 46.64           O 0
+ATOM    698  CG2 THR A  91      25.838  20.214  22.873  1.00 38.94           C 0
+ATOM    952    O TRP B   6      25.755  25.367  23.182  1.00 47.46           O 0
+ATOM    944    O LEU B   5      24.856  22.514  21.044  1.00 51.72           O 0
+ATOM    665   NE ARG A  87      22.160  24.145  21.253  1.00 41.45           N 0
+ATOM    958  CE3 TRP B   6      28.332  22.240  25.255  1.00 69.77           C 0
+ATOM    235  OD1 ASP A  30      16.555  23.210  27.291  1.00 47.85           O 0
+ATOM    225   CB ASP A  29      16.968  24.929  23.682  1.00 28.95           C 0
+TER
+END

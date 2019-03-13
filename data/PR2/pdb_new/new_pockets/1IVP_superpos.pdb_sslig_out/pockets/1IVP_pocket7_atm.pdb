@@ -1,0 +1,59 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 3.7359
+HEADER 1  - Number of V. Vertices             :    57
+HEADER 2  - Mean alpha-sphere radius          : 4.0604
+HEADER 3  - Mean alpha-sphere SA              : 0.6837
+HEADER 4  - Mean B-factor                     : 0.2293
+HEADER 5  - Hydrophobicity Score              : 9.3333
+HEADER 6  - Polarity Score                    :     7
+HEADER 7  - Volume Score                      : 3.9167
+HEADER 8  - Real volume (approximation)       : 1955.0336
+HEADER 9  - Charge Score                      :     3
+HEADER 10 - Local hydrophobic density Score   : 8.6667
+HEADER 11 - Number of apolar alpha sphere     :    12
+HEADER 12 - Proportion of apolar alpha sphere : 0.2105
+ATOM    794  CZ3 TRP B   6      28.330  21.288  26.015  1.00 17.37           C 0
+ATOM    658   CB ASN A  88      20.518  19.471  26.798  1.00 10.96           C 0
+ATOM    655   CA ASN A  88      21.478  19.150  25.659  1.00 11.46           C 0
+ATOM    657    O ASN A  88      22.997  17.432  26.302  1.00 13.83           O 0
+ATOM    683  OG1 THR A  91      24.894  18.730  24.582  1.00 12.27           O 0
+ATOM    792  CE3 TRP B   6      28.172  22.254  25.050  1.00 17.22           C 0
+ATOM    785    O TRP B   6      25.295  25.417  23.263  1.00 13.54           O 0
+ATOM    652  NH1 ARG A  87      22.807  24.158  22.058  1.00  3.49           N 1
+ATOM    684  CG2 THR A  91      26.150  20.068  22.982  1.00 11.65           C 0
+ATOM    654    N ASN A  88      20.928  19.525  24.349  1.00 10.38           N 0
+ATOM    216    O ASP A  29      18.200  21.886  24.928  1.00 13.61           O 0
+ATOM    647   CB ARG A  87      21.419  21.335  21.576  1.00  5.85           C 0
+ATOM    646    O ARG A  87      22.882  19.271  23.177  1.00 11.11           O 0
+ATOM    651   CZ ARG A  87      21.632  24.611  21.649  1.00  2.88           C 0
+ATOM    645    C ARG A  87      21.635  19.545  23.251  1.00  9.30           C 0
+ATOM    653  NH2 ARG A  87      21.038  25.603  22.297  1.00  3.11           N 0
+ATOM    777    O LEU B   5      24.463  22.557  21.390  1.00 13.60           O 0
+ATOM    783   CA TRP B   6      26.874  23.736  22.409  1.00 14.20           C 0
+ATOM    795  CH2 TRP B   6      29.364  20.342  25.935  1.00 17.81           C 0
+ATOM    685    N ALA A  92      26.132  15.804  24.807  1.00 13.63           N 0
+ATOM    681    O THR A  91      28.225  16.236  24.027  1.00 12.86           O 0
+ATOM    686   CA ALA A  92      26.418  14.781  25.827  1.00 12.99           C 0
+ATOM    680    C THR A  91      26.987  16.440  24.010  1.00 12.82           C 0
+ATOM    689   CB ALA A  92      25.154  14.608  26.647  1.00 13.17           C 0
+ATOM    682   CB THR A  91      26.181  18.820  23.858  1.00 12.08           C 0
+ATOM    548    N THR A  74      18.883  16.495  31.748  1.00 17.15           N 0
+ATOM    547   CB ALA A  73      21.053  14.605  30.035  1.00 19.23           C 0
+ATOM    661  ND2 ASN A  88      18.432  18.587  27.640  1.00 11.24           N 0
+ATOM    552   CB THR A  74      17.522  18.555  31.989  1.00 16.90           C 0
+ATOM    553  OG1 THR A  74      17.971  19.004  33.306  1.00 17.30           O 0
+ATOM    544   CA ALA A  73      20.567  14.694  31.491  1.00 18.77           C 0
+ATOM    535    O ARG A  72      23.001  13.595  31.972  1.00 21.16           O 0
+ATOM    447   CA ASN A  61      19.795  14.045  35.721  1.00 22.54           C 0
+ATOM    450   CB ASN A  61      20.820  14.210  36.845  1.00 22.33           C 0
+ATOM    446    N ASN A  61      18.824  15.148  35.817  1.00 21.77           N 0
+ATOM    445   NZ LYS A  60      19.027  21.703  37.128  1.00 21.07           N 1
+ATOM    441   CB LYS A  60      17.432  17.451  37.153  1.00 20.28           C 0
+ATOM    443   CD LYS A  60      17.503  19.912  37.678  1.00 20.50           C 0
+ATOM    444   CE LYS A  60      17.717  21.094  36.747  1.00 20.68           C 0
+TER
+END

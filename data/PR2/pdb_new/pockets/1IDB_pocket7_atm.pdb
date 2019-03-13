@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 6.9212
+HEADER 1  - Number of V. Vertices             :    43
+HEADER 2  - Mean alpha-sphere radius          : 4.0774
+HEADER 3  - Mean alpha-sphere SA              : 0.6126
+HEADER 4  - Mean B-factor                     : 0.1278
+HEADER 5  - Hydrophobicity Score              : 11.3750
+HEADER 6  - Polarity Score                    :     5
+HEADER 7  - Volume Score                      : 4.0000
+HEADER 8  - Real volume (approximation)       : 1323.0895
+HEADER 9  - Charge Score                      :     1
+HEADER 10 - Local hydrophobic density Score   : 13.0000
+HEADER 11 - Number of apolar alpha sphere     :    14
+HEADER 12 - Proportion of apolar alpha sphere : 0.3256
+ATOM    810  CZ3 TRP B   6      27.526  23.085  27.416  1.00 14.83           C 0
+ATOM    701   CA ALA A  92      26.504  14.994  25.764  1.00 13.24           C 0
+ATOM    704   CB ALA A  92      25.509  14.690  26.876  1.00 10.45           C 0
+ATOM    699  CG2 THR A  91      27.444  19.435  24.154  1.00 16.54           C 0
+ATOM    700    N ALA A  92      25.997  15.969  24.892  1.00 12.64           N 0
+ATOM    672    O ASN A  88      23.139  17.270  26.089  1.00 14.79           O 0
+ATOM    697   CB THR A  91      26.079  18.859  23.734  1.00 14.09           C 0
+ATOM    698  OG1 THR A  91      25.367  19.725  22.881  1.00 13.65           O 0
+ATOM    808  CE3 TRP B   6      27.752  23.073  26.029  1.00 17.92           C 0
+ATOM    670   CA ASN A  88      21.551  18.992  25.674  1.00 13.31           C 0
+ATOM    661    O ARG A  87      22.881  19.069  23.329  1.00 10.88           O 0
+ATOM    799   CA TRP B   6      27.028  23.623  22.327  1.00 16.00           C 0
+ATOM    801    O TRP B   6      25.620  25.290  23.173  1.00 17.90           O 0
+ATOM    667  NH1 ARG A  87      23.050  24.253  21.943  1.00  8.00           N 1
+ATOM    793    O LEU B   5      24.725  22.392  21.147  1.00 16.81           O 0
+ATOM    224    O ASP A  29      18.678  22.137  24.564  1.00 19.41           O 0
+ATOM    235  OD1 ASP A  30      17.215  22.997  27.368  1.00 29.07           O 0
+ATOM    673   CB ASN A  88      20.738  19.331  26.928  1.00 14.15           C 0
+ATOM    811  CH2 TRP B   6      27.865  24.222  28.182  1.00 12.03           C 0
+ATOM    668  NH2 ARG A  87      21.120  25.420  22.263  1.00  7.42           N 0
+ATOM    662   CB ARG A  87      21.427  21.269  21.615  1.00 13.42           C 0
+ATOM    669    N ASN A  88      20.929  19.379  24.424  1.00 14.21           N 0
+ATOM    660    C ARG A  87      21.683  19.421  23.320  1.00 12.06           C 0
+ATOM    696    O THR A  91      27.926  16.007  23.852  1.00 17.62           O 0
+ATOM    695    C THR A  91      26.785  16.433  23.970  1.00 13.81           C 0
+TER
+END

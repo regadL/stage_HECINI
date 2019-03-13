@@ -1,0 +1,51 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : 2.2556
+HEADER 1  - Number of V. Vertices             :    46
+HEADER 2  - Mean alpha-sphere radius          : 3.6381
+HEADER 3  - Mean alpha-sphere SA              : 0.5499
+HEADER 4  - Mean B-factor                     : 0.2021
+HEADER 5  - Hydrophobicity Score              : -2.1000
+HEADER 6  - Polarity Score                    :     7
+HEADER 7  - Volume Score                      : 3.7000
+HEADER 8  - Real volume (approximation)       : 1282.8728
+HEADER 9  - Charge Score                      :     2
+HEADER 10 - Local hydrophobic density Score   : 2.0000
+HEADER 11 - Number of apolar alpha sphere     :     3
+HEADER 12 - Proportion of apolar alpha sphere : 0.0652
+ATOM   1020  OD1 ASP B  30       8.604  20.592   4.117  1.00 31.42           O 0
+ATOM   1368  OG1 THR B  74      10.456  23.564  -2.737  1.00 15.19           O 0
+ATOM   1231  OE1 GLU B  58       5.647  23.356  -0.647  1.00 33.24           O 0
+ATOM   1369  CG2 THR B  74       9.235  24.593  -0.898  1.00 13.37           C 0
+ATOM   1367   CB THR B  74      10.587  24.143  -1.437  1.00 12.00           C 0
+ATOM   1478   CB ASN B  88      13.778  20.441   1.859  1.00 11.84           C 0
+ATOM   1481  ND2 ASN B  88      13.461  22.748   1.316  1.00 11.51           N 0
+ATOM   1018   CB ASP B  30       9.350  22.382   5.561  1.00 13.38           C 0
+ATOM   1479   CG ASN B  88      13.676  21.868   2.280  1.00  9.38           C 0
+ATOM   1389   CEAMET B  76       6.080  23.649   3.097  0.60 25.04           C 0
+ATOM   1385   CGAMET B  76       6.954  26.266   3.076  0.60  9.58           C 0
+ATOM   1366    O THR B  74      12.312  25.464   0.753  1.00 11.97           O 0
+ATOM   1378    N MET B  76       9.257  28.124   2.647  1.00  7.65           N 0
+ATOM   1022    N SER B  31      11.772  24.113   5.332  1.00  7.60           N 0
+ATOM   1025    O SER B  31      10.785  26.737   4.746  1.00  8.21           O 0
+ATOM   1015   CA ASP B  30      10.821  21.935   5.659  1.00 11.28           C 0
+ATOM   1363    N THR B  74      12.876  24.794  -1.988  1.00 11.70           N 0
+ATOM   1359   CA ALA B  73      15.094  24.892  -2.893  1.00 11.73           C 0
+ATOM   1262  OD1AASN B  61      12.482  24.628  -8.329  0.50 39.64           O 0
+ATOM   1254    N ASN B  61      11.830  26.623  -5.945  1.00 14.65           N 0
+ATOM   1255   CA ASN B  61      12.970  26.993  -6.780  1.00 17.08           C 0
+ATOM   1358    N ALA B  73      15.930  25.710  -3.768  1.00 12.83           N 0
+ATOM   1360    C ALA B  73      13.769  25.569  -2.578  1.00 10.64           C 0
+ATOM   1349    C ARG B  72      16.817  25.126  -4.550  1.00 13.95           C 0
+ATOM   1350    O ARG B  72      16.968  23.910  -4.641  1.00 19.25           O 0
+ATOM   1477    O ASN B  88      16.894  20.220   0.796  1.00 12.50           O 0
+ATOM   1362   CB ALA B  73      15.830  24.531  -1.604  1.00 15.69           C 0
+ATOM   1251   CD LYS B  60       7.162  23.839  -6.159  1.00 33.19           C 0
+ATOM   1250   CG LYS B  60       7.810  24.917  -5.324  1.00 23.08           C 0
+ATOM   1253   NZ LYS B  60       8.220  22.730  -8.246  1.00 68.82           N 1
+ATOM   1249   CB LYS B  60       8.840  25.785  -5.988  1.00 16.10           C 0
+TER
+END

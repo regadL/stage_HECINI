@@ -1,0 +1,61 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 21.8145
+HEADER 1  - Number of V. Vertices             :    77
+HEADER 2  - Mean alpha-sphere radius          : 4.2251
+HEADER 3  - Mean alpha-sphere SA              : 0.5293
+HEADER 4  - Mean B-factor                     : 0.2853
+HEADER 5  - Hydrophobicity Score              : 6.2000
+HEADER 6  - Polarity Score                    :     7
+HEADER 7  - Volume Score                      : 3.0000
+HEADER 8  - Real volume (approximation)       : 2319.2800
+HEADER 9  - Charge Score                      :     0
+HEADER 10 - Local hydrophobic density Score   : 37.8500
+HEADER 11 - Number of apolar alpha sphere     :    40
+HEADER 12 - Proportion of apolar alpha sphere : 0.5195
+ATOM    616   CB PRO A  81       3.219  15.737  18.048  1.00 23.45           C 0
+ATOM     75  NH2 ARG A   8       7.176  13.122  12.330  1.00 38.95           N 0
+ATOM    624  CG1 ILE A  82       6.694  14.165  16.302  1.00 26.73           C 0
+ATOM    615    O PRO A  81       4.315  12.734  18.438  1.00 24.08           O 0
+ATOM    626  CD1 ILE A  82       7.297  14.713  15.061  1.00 42.09           C 0
+ATOM   1151   CZ PHE B  53      -1.142  20.298  13.696  1.00 33.02           C 0
+ATOM     74  NH1 ARG A   8       7.584  14.553  10.591  1.00 25.38           N 1
+ATOM   1150  CE2 PHE B  53      -0.622  20.928  12.562  1.00 31.38           C 0
+ATOM   1120    O GLY B  48       4.904  21.432  13.291  1.00 18.03           O 0
+ATOM   1117    N GLY B  48       2.780  22.410  11.830  1.00 22.08           N 0
+ATOM    984  OD2 ASP B  29       7.933  16.667   8.883  1.00 20.89           O 1
+ATOM   1105    O ILE B  46       1.196  22.884   7.675  1.00 27.08           O 0
+ATOM    642  CD1 ILE A  84      11.286  16.629  18.686  1.00 16.52           C 0
+ATOM    204  OD2 ASP A  25      13.779  19.175  17.371  1.00 19.65           O 1
+ATOM    971    O GLY B  27      11.705  18.729  13.278  1.00 11.49           O 0
+ATOM   1130  CG1 ILE B  50       7.531  21.311  20.719  1.00 23.32           C 0
+ATOM   1125    N ILE B  50       5.695  22.307  18.336  1.00 21.70           N 0
+ATOM   1122   CA GLY B  49       5.271  22.106  15.966  1.00 21.11           C 0
+ATOM    960  OD2 ASP B  25      14.023  23.032  13.443  1.00 20.90           O 1
+ATOM    188  CD2 LEU A  23      12.091  15.420  15.111  1.00 15.36           C 0
+ATOM   1123    C GLY B  49       4.821  21.963  17.414  1.00 20.15           C 0
+ATOM   1118   CA GLY B  48       2.642  22.243  13.261  1.00 19.71           C 0
+ATOM   1149  CE1 PHE B  53      -1.722  21.059  14.711  1.00 34.96           C 0
+ATOM   1124    O GLY B  49       3.711  21.524  17.698  1.00 18.14           O 0
+ATOM   1140    O GLY B  52       1.765  23.900  15.890  1.00 27.43           O 0
+ATOM   1121    N GLY B  49       4.083  22.364  15.174  1.00 20.00           N 0
+ATOM   1138   CA GLY B  52       0.307  24.166  17.788  1.00 25.46           C 0
+ATOM   1119    C GLY B  48       3.970  21.939  13.923  1.00 20.92           C 0
+ATOM    617   CG PRO A  81       3.138  17.161  18.628  1.00 28.26           C 0
+ATOM    618   CD PRO A  81       4.149  17.134  19.706  1.00 22.54           C 0
+ATOM    623   CB ILE A  82       7.704  14.039  17.427  1.00 22.78           C 0
+ATOM    619    N ILE A  82       5.844  14.262  19.089  1.00 17.19           N 0
+ATOM    610  OG1 THR A  80       6.741  16.674  21.410  1.00 22.92           O 0
+ATOM   1132  CD1 ILE B  50       6.904  20.199  21.455  1.00 14.77           C 0
+ATOM    640  CG1 ILE A  84      11.060  16.977  20.095  1.00 12.48           C 0
+ATOM    622    O ILE A  82       8.101  14.705  20.465  1.00 19.32           O 0
+ATOM    369    N ILE A  50       7.202  26.364  17.794  1.00 23.79           N 0
+ATOM    366   CA GLY A  49       8.094  26.086  20.024  1.00 21.30           C 0
+ATOM   1129   CB ILE B  50       6.680  22.571  20.586  1.00 22.91           C 0
+ATOM    215    O GLY A  27      15.194  23.619  17.921  1.00 11.29           O 0
+ATOM    373   CB ILE A  50       6.920  26.511  15.303  1.00 21.82           C 0
+TER
+END

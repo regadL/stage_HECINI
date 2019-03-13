@@ -1,0 +1,46 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 3.0470
+HEADER 1  - Number of V. Vertices             :    39
+HEADER 2  - Mean alpha-sphere radius          : 4.1308
+HEADER 3  - Mean alpha-sphere SA              : 0.6781
+HEADER 4  - Mean B-factor                     : 0.2358
+HEADER 5  - Hydrophobicity Score              : -3.6667
+HEADER 6  - Polarity Score                    :     5
+HEADER 7  - Volume Score                      : 4.1667
+HEADER 8  - Real volume (approximation)       : 1634.4050
+HEADER 9  - Charge Score                      :     2
+HEADER 10 - Local hydrophobic density Score   : 13.0000
+HEADER 11 - Number of apolar alpha sphere     :    14
+HEADER 12 - Proportion of apolar alpha sphere : 0.3590
+ATOM    315    O TYR A  42       9.693  20.051  40.551  1.00 19.10           O 0
+ATOM    322   CZ TYR A  42       5.331  18.563  40.201  1.00 23.10           C 0
+ATOM    299    O ASN A  40       8.372  15.787  42.699  1.00 25.60           O 0
+ATOM    323   OH TYR A  42       4.297  18.788  41.098  1.00 26.80           O 0
+ATOM    320  CE1 TYR A  42       5.890  19.587  39.438  1.00 20.40           C 0
+ATOM    305   CA ASN A  41      10.904  15.559  41.712  1.00 28.00           C 0
+ATOM    310  OD1 ASN A  41      11.332  14.489  44.510  1.00 29.10           O 0
+ATOM    312    N TYR A  42      10.267  17.314  40.198  1.00 24.90           N 0
+ATOM    307    O ASN A  41      11.947  15.893  39.562  1.00 30.10           O 0
+ATOM    430    O GLU A  58      12.120  18.564  36.602  1.00 17.30           O 0
+ATOM    314    C TYR A  42       9.991  19.632  39.415  1.00 19.60           C 0
+ATOM    328   CB SER A  43      11.658  22.255  38.373  1.00 27.90           C 0
+ATOM    306    C ASN A  41      11.114  16.311  40.382  1.00 27.00           C 0
+ATOM    324    N SER A  43      10.360  20.407  38.453  1.00 18.00           N 0
+ATOM    454   CD LYS A  60      18.151  19.795  37.411  1.00 31.90           C 0
+ATOM    313   CA TYR A  42      10.122  18.148  38.986  1.00 24.00           C 0
+ATOM    453   CG LYS A  60      17.452  18.803  36.523  1.00 22.50           C 0
+ATOM    308   CB ASN A  41      12.225  14.877  42.280  1.00 27.40           C 0
+ATOM    452   CB LYS A  60      17.747  17.471  37.120  1.00 17.50           C 0
+ATOM    448    N LYS A  60      15.695  16.447  36.335  1.00 17.80           N 0
+ATOM    329   OG SER A  43      11.821  23.612  38.731  1.00 32.40           O 0
+ATOM    455   CE LYS A  60      18.159  21.200  36.825  1.00 39.40           C 0
+ATOM    456   NZ LYS A  60      19.175  22.077  37.463  1.00 42.20           N 1
+ATOM    434  OE1 GLU A  58      14.811  22.815  35.106  1.00 30.90           O 0
+ATOM    432   CG GLU A  58      13.911  20.572  34.362  1.00 24.10           C 0
+ATOM    451    O LYS A  60      17.302  14.134  37.228  1.00 19.70           O 0
+TER
+END

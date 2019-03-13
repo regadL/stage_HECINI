@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 2.4864
+HEADER 1  - Number of V. Vertices             :    36
+HEADER 2  - Mean alpha-sphere radius          : 4.2259
+HEADER 3  - Mean alpha-sphere SA              : 0.5986
+HEADER 4  - Mean B-factor                     : 0.2692
+HEADER 5  - Hydrophobicity Score              : 48.7778
+HEADER 6  - Polarity Score                    :     4
+HEADER 7  - Volume Score                      : 4.7778
+HEADER 8  - Real volume (approximation)       : 1409.0441
+HEADER 9  - Charge Score                      :     1
+HEADER 10 - Local hydrophobic density Score   : 13.0000
+HEADER 11 - Number of apolar alpha sphere     :    14
+HEADER 12 - Proportion of apolar alpha sphere : 0.3889
+ATOM     68    O ARG A   8      14.812   9.853  10.343  1.00 18.80           O 0
+ATOM     59    O LYS A   7      15.943  11.386   7.876  1.00 14.80           O 0
+ATOM     77   CA PRO A   9      16.690  11.116  12.102  1.00 18.10           C 0
+ATOM     24  CD2 PHE A   3      20.497   9.020  12.295  1.00 33.00           C 0
+ATOM     21   CB PHE A   3      21.585  10.813  10.824  1.00 25.00           C 0
+ATOM     28    N SER A   4      21.866  10.920   7.310  1.00 21.60           N 0
+ATOM     62   CD LYS A   7      14.258   6.934   5.111  1.00 75.70           C 0
+ATOM     11    O GLN A   2      23.714   7.862   9.537  1.00 30.70           O 0
+ATOM     18   CA PHE A   3      22.392  10.225   9.630  1.00 22.00           C 0
+ATOM     60   CB LYS A   7      14.442   9.179   6.246  1.00 33.20           C 0
+ATOM     86    O VAL A  10      15.472   6.734  14.263  1.00 17.40           O 0
+ATOM     80   CB PRO A   9      17.770  12.199  12.350  1.00 14.60           C 0
+ATOM     34    N LEU A   5      19.798  12.380   6.540  1.00 17.90           N 0
+ATOM     41  CD2 LEU A   5      19.479  14.694   9.232  1.00 11.70           C 0
+ATOM     56    N LYS A   7      15.648  10.986   5.075  1.00 20.20           N 0
+ATOM     61   CG LYS A   7      14.298   8.448   4.925  1.00 52.50           C 0
+ATOM     63   CE LYS A   7      14.289   6.211   3.762  1.00 79.00           C 0
+ATOM     46   CB TRP A   6      17.256  11.007   2.541  1.00 15.60           C 0
+ATOM     32   CB SER A   4      22.365  10.644   4.902  1.00 28.30           C 0
+ATOM     48  CD1 TRP A   6      19.716  11.227   1.749  1.00 20.10           C 0
+ATOM     42    N TRP A   6      17.780  12.305   4.501  1.00 11.60           N 0
+ATOM     83    N VAL A  10      15.227   9.522  13.279  1.00 16.20           N 0
+ATOM     26  CE2 PHE A   3      20.498   8.154  13.398  1.00 34.60           C 0
+TER
+END

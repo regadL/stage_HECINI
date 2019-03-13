@@ -1,0 +1,46 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 1.2579
+HEADER 1  - Number of V. Vertices             :    38
+HEADER 2  - Mean alpha-sphere radius          : 4.1168
+HEADER 3  - Mean alpha-sphere SA              : 0.5364
+HEADER 4  - Mean B-factor                     : 0.1458
+HEADER 5  - Hydrophobicity Score              : 27.6250
+HEADER 6  - Polarity Score                    :     4
+HEADER 7  - Volume Score                      : 4.1250
+HEADER 8  - Real volume (approximation)       : 1735.1138
+HEADER 9  - Charge Score                      :     0
+HEADER 10 - Local hydrophobic density Score   : 15.2727
+HEADER 11 - Number of apolar alpha sphere     :    22
+HEADER 12 - Proportion of apolar alpha sphere : 0.5789
+ATOM    847   NZ LYS B   7      30.240  29.287  16.661  1.00 34.69           N 1
+ATOM    846   CE LYS B   7      29.359  28.153  17.149  1.00 29.73           C 0
+ATOM    845   CD LYS B   7      28.511  28.462  18.363  1.00 20.76           C 0
+ATOM    869    O VAL B  10      25.269  29.956  12.848  1.00 13.22           O 0
+ATOM    851    O ARG B   8      24.543  27.567  16.749  1.00 12.42           O 0
+ATOM    870   CB VAL B  10      22.546  30.318  14.399  1.00 12.22           C 0
+ATOM    843   CB LYS B   7      26.844  27.548  20.113  1.00 19.77           C 0
+ATOM    956  OE2 GLU B  21      20.538  34.021  15.137  1.00 14.27           O 1
+ATOM    852   CB ARG B   8      21.880  27.751  18.220  1.00 13.93           C 0
+ATOM    871  CG1 VAL B  10      22.276  31.642  13.717  1.00 17.92           C 0
+ATOM    848    N ARG B   8      23.873  26.848  19.357  1.00 13.04           N 0
+ATOM    872  CG2 VAL B  10      21.309  29.774  15.106  1.00 16.63           C 0
+ATOM    854   CD ARG B   8      19.794  28.790  19.090  1.00 17.94           C 0
+ATOM    809  CE2 PHE B   3      27.280  25.869  11.824  1.00 18.14           C 0
+ATOM    807  CD2 PHE B   3      27.283  24.948  12.870  1.00 17.27           C 0
+ATOM    866    N VAL B  10      23.586  28.136  14.094  1.00 10.08           N 0
+ATOM    860   CA PRO B   9      23.995  25.868  14.666  1.00 10.75           C 0
+ATOM    801   CA PHE B   3      28.833  22.196  14.105  1.00 15.62           C 0
+ATOM    811    N SER B   4      29.454  21.583  16.374  1.00 15.63           N 0
+ATOM    844   CG LYS B   7      27.642  27.309  18.820  1.00 21.67           C 0
+ATOM    842    O LYS B   7      25.050  25.055  18.786  1.00 13.93           O 0
+ATOM    804   CB PHE B   3      27.417  22.543  13.626  1.00 16.86           C 0
+ATOM    817    N LEU B   5      27.416  21.636  18.253  1.00 13.98           N 0
+ATOM    863   CB PRO B   9      23.839  24.420  14.147  1.00 12.25           C 0
+ATOM    824  CD2 LEU B   5      24.443  20.821  16.446  1.00 12.78           C 0
+ATOM    853   CG ARG B   8      20.879  27.717  19.348  1.00 14.29           C 0
+TER
+END

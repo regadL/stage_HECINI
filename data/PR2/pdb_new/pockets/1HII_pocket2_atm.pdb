@@ -1,0 +1,62 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 19.2339
+HEADER 1  - Number of V. Vertices             :    67
+HEADER 2  - Mean alpha-sphere radius          : 3.7492
+HEADER 3  - Mean alpha-sphere SA              : 0.4396
+HEADER 4  - Mean B-factor                     : 0.2262
+HEADER 5  - Hydrophobicity Score              : 11.5500
+HEADER 6  - Polarity Score                    :     9
+HEADER 7  - Volume Score                      : 2.9000
+HEADER 8  - Real volume (approximation)       : 2066.7654
+HEADER 9  - Charge Score                      :     0
+HEADER 10 - Local hydrophobic density Score   : 26.9032
+HEADER 11 - Number of apolar alpha sphere     :    31
+HEADER 12 - Proportion of apolar alpha sphere : 0.4627
+ATOM    584   SD MET A  76      11.868  21.069  29.505  1.00 39.97           S 0
+ATOM    240    O SER A  31      13.177  17.415  27.087  1.00 14.00           O 0
+ATOM    247   CB ILE A  32      10.110  17.770  25.374  1.00 16.22           C 0
+ATOM    233   CB ASP A  30      14.969  21.293  26.319  1.00 17.54           C 0
+ATOM    360  CG2 VAL A  47      10.646  23.982  25.754  1.00 29.95           C 0
+ATOM    249  CG2 ILE A  32      10.422  18.287  24.022  1.00 20.63           C 0
+ATOM    239    C SER A  31      13.332  17.061  25.913  1.00 13.11           C 0
+ATOM    582   CB MET A  76      11.006  18.510  29.575  1.00 15.13           C 0
+ATOM    250  CD1 ILE A  32       7.809  18.398  26.249  1.00 22.84           C 0
+ATOM    359  CG1 VAL A  47       8.361  23.072  26.018  1.00 34.34           C 0
+ATOM    418  CG2 THR A  56       7.197  20.702  28.738  1.00 16.38           C 0
+ATOM    403  CD1 ILE A  54       5.112  21.028  25.191  1.00 18.06           C 0
+ATOM   1132  CD1 ILE B  50       6.904  20.199  21.455  1.00 14.77           C 0
+ATOM   1130  CG1 ILE B  50       7.531  21.311  20.719  1.00 23.32           C 0
+ATOM   1131  CG2 ILE B  50       6.387  23.275  21.896  1.00 27.59           C 0
+ATOM    366   CA GLY A  49       8.094  26.086  20.024  1.00 21.30           C 0
+ATOM    364    O GLY A  48       9.880  26.460  22.118  1.00 23.74           O 0
+ATOM   1129   CB ILE B  50       6.680  22.571  20.586  1.00 22.91           C 0
+ATOM    215    O GLY A  27      15.194  23.619  17.921  1.00 11.29           O 0
+ATOM    829   CZ ARG B   8      17.482  29.338  20.758  1.00 24.77           C 0
+ATOM    944  CD2 LEU B  23      16.595  26.643  15.634  1.00  9.18           C 0
+ATOM   1382  CD1 ILE B  82      14.913  30.416  17.858  1.00 41.92           C 0
+ATOM    831  NH2 ARG B   8      16.597  29.070  21.713  1.00 22.51           N 0
+ATOM    828   NE ARG B   8      18.486  28.499  20.522  1.00 20.44           N 0
+ATOM    227  OD1 ASP A  29      18.352  25.795  21.916  1.00 21.07           O 0
+ATOM    220   CB ALA A  28      15.164  20.724  20.286  1.00  8.39           C 0
+ATOM    204  OD2 ASP A  25      13.779  19.175  17.371  1.00 19.65           O 1
+ATOM    640  CG1 ILE A  84      11.060  16.977  20.095  1.00 12.48           C 0
+ATOM    641  CG2 ILE A  84      13.447  17.444  20.622  1.00 12.58           C 0
+ATOM    232    O ASP A  30      15.178  19.378  23.517  1.00 19.16           O 0
+ATOM    231    C ASP A  30      15.434  19.466  24.724  1.00 16.91           C 0
+ATOM    229    N ASP A  30      16.341  21.792  24.333  1.00 16.75           N 0
+ATOM    221    N ASP A  29      16.829  23.146  22.021  1.00 15.87           N 0
+ATOM    217   CA ALA A  28      15.948  22.016  20.035  1.00 12.90           C 0
+ATOM    236  OD2 ASP A  30      14.490  23.588  26.652  1.00 29.76           O 1
+ATOM    361    N GLY A  48       8.837  26.763  24.748  1.00 22.55           N 0
+ATOM    355   CA VAL A  47       8.884  25.440  26.779  1.00 24.07           C 0
+ATOM    349    O ILE A  46       9.631  26.529  29.132  1.00 27.97           O 0
+ATOM    228  OD2 ASP A  29      17.141  26.949  23.336  1.00 22.67           O 1
+ATOM    225   CB ASP A  29      17.536  24.671  23.872  1.00 15.77           C 0
+ATOM    394  CE2 PHE A  53       7.371  30.724  25.323  1.00 23.74           C 0
+ATOM    226   CG ASP A  29      17.693  25.887  22.973  1.00 22.59           C 0
+TER
+END

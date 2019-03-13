@@ -1,0 +1,61 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 12.4494
+HEADER 1  - Number of V. Vertices             :    69
+HEADER 2  - Mean alpha-sphere radius          : 4.2102
+HEADER 3  - Mean alpha-sphere SA              : 0.5758
+HEADER 4  - Mean B-factor                     : 0.2777
+HEADER 5  - Hydrophobicity Score              : 3.9375
+HEADER 6  - Polarity Score                    :     9
+HEADER 7  - Volume Score                      : 3.1875
+HEADER 8  - Real volume (approximation)       : 2726.3489
+HEADER 9  - Charge Score                      :     0
+HEADER 10 - Local hydrophobic density Score   : 17.9000
+HEADER 11 - Number of apolar alpha sphere     :    20
+HEADER 12 - Proportion of apolar alpha sphere : 0.2899
+ATOM    629   CB PRO A  81       3.018  16.792  18.161  1.00 17.59           C 0
+ATOM    613    O ASP A  79       2.349  18.577  23.255  1.00 19.20           O 0
+ATOM    617  OD2 ASP A  79      -1.333  17.905  24.728  1.00 30.51           O 1
+ATOM    616  OD1 ASP A  79       0.070  16.362  24.128  1.00 32.59           O 0
+ATOM   1160   CA GLY B  52       0.081  23.480  16.545  1.00 16.62           C 0
+ATOM   1158    O GLY B  51       0.034  24.458  18.933  1.00 20.72           O 0
+ATOM   1171  CE1 PHE B  53      -1.877  20.389  13.791  1.00 27.81           C 0
+ATOM    621    O THR A  80       4.028  15.386  21.849  1.00 15.72           O 0
+ATOM    620    C THR A  80       4.222  16.573  21.547  1.00 15.52           C 0
+ATOM    625    N PRO A  81       3.990  16.945  20.291  1.00 15.48           N 0
+ATOM    626   CA PRO A  81       3.483  15.936  19.341  1.00 15.97           C 0
+ATOM    631   CD PRO A  81       4.121  18.283  19.697  1.00 16.14           C 0
+ATOM   1150    O ILE B  50       3.460  21.825  19.999  1.00 15.97           O 0
+ATOM    630   CG PRO A  81       3.779  18.059  18.245  1.00 17.74           C 0
+ATOM   1146    O GLY B  49       3.756  21.487  16.491  1.00 12.43           O 0
+ATOM   1159    N GLY B  52       1.296  23.530  17.362  1.00 16.04           N 0
+ATOM   1162    O GLY B  52       1.541  23.628  14.704  1.00 17.37           O 0
+ATOM   1173   CZ PHE B  53      -1.162  19.637  12.876  1.00 29.77           C 0
+ATOM   1140   CA GLY B  48       2.705  21.692  12.075  1.00 13.10           C 0
+ATOM   1157    C GLY B  51       1.165  24.104  18.563  1.00 17.40           C 0
+ATOM    415  CG2 ILE A  54       3.015  22.868  23.849  1.00 20.14           C 0
+ATOM   1156   CA GLY B  51       2.409  24.272  19.405  1.00 16.50           C 0
+ATOM    401    O PHE A  53       2.057  26.009  23.852  1.00 15.40           O 0
+ATOM   1139    N GLY B  48       2.926  22.001  10.662  1.00 13.24           N 0
+ATOM     75  NH2 ARG A   8       7.267  15.224  10.899  1.00 32.14           N 0
+ATOM   1172  CE2 PHE B  53      -0.648  20.240  11.749  1.00 28.06           C 0
+ATOM   1142    O GLY B  48       5.010  21.188  12.371  1.00 13.77           O 0
+ATOM     74  NH1 ARG A   8       7.544  13.209  12.021  1.00 34.34           N 1
+ATOM    636   CB ILE A  82       7.432  14.556  17.392  1.00 17.38           C 0
+ATOM    628    O PRO A  81       4.222  13.856  18.344  1.00 18.11           O 0
+ATOM    638  CG2 ILE A  82       8.101  15.888  17.157  1.00 20.98           C 0
+ATOM    639  CD1 ILE A  82       8.718  13.558  15.482  1.00 24.57           C 0
+ATOM   1141    C GLY B  48       4.012  21.724  12.842  1.00 12.56           C 0
+ATOM    627    C PRO A  81       4.529  14.924  18.889  1.00 17.44           C 0
+ATOM   1127    O ILE B  46       1.201  22.120   6.583  1.00 13.79           O 0
+ATOM   1133   CA VAL B  47       2.740  23.352   8.636  1.00 11.60           C 0
+ATOM   1010  OD2 ASP B  30       7.387  21.176   6.232  1.00 21.52           O 1
+ATOM   1138  CG2 VAL B  47       4.394  24.262   6.978  1.00 13.96           C 0
+ATOM   1002  OD2 ASP B  29       8.769  17.322   9.413  1.00 34.24           O 1
+ATOM   1137  CG1 VAL B  47       5.053  24.002   9.384  1.00 16.97           C 0
+ATOM    637  CG1 ILE A  82       8.431  13.458  16.968  1.00 18.93           C 0
+TER
+END

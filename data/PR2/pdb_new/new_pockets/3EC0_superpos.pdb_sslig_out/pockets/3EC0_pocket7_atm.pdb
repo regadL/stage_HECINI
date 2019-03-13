@@ -1,0 +1,48 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 3.3787
+HEADER 1  - Number of V. Vertices             :    38
+HEADER 2  - Mean alpha-sphere radius          : 3.7535
+HEADER 3  - Mean alpha-sphere SA              : 0.5663
+HEADER 4  - Mean B-factor                     : 0.2843
+HEADER 5  - Hydrophobicity Score              : -15.1667
+HEADER 6  - Polarity Score                    :     5
+HEADER 7  - Volume Score                      : 3.5000
+HEADER 8  - Real volume (approximation)       : 1350.0494
+HEADER 9  - Charge Score                      :    -2
+HEADER 10 - Local hydrophobic density Score   : 13.2000
+HEADER 11 - Number of apolar alpha sphere     :    15
+HEADER 12 - Proportion of apolar alpha sphere : 0.3947
+ATOM    929   CA GLY B  17      19.444  38.175  -1.939  1.00 12.72           C 0
+ATOM   1301  OE1 GLU B  65      23.952  34.045  -4.302  1.00 47.13           O 0
+ATOM   1280  OE1 GLU B  63      20.307  33.413  -7.424  1.00 54.30           O 0
+ATOM   1343   NZ LYS B  70      22.796  33.241  -7.296  1.00 59.43           N 1
+ATOM    928    N GLY B  17      18.743  36.963  -2.280  1.00 11.44           N 0
+ATOM    921    C GLU B  16      17.530  36.999  -2.830  1.00 12.39           C 0
+ATOM    922    O GLU B  16      16.925  38.057  -3.005  1.00 13.47           O 0
+ATOM    926  OE1 GLU B  16      15.648  35.125  -6.072  1.00 34.75           O 0
+ATOM   1281  OE2 GLU B  63      18.472  33.416  -8.624  1.00 65.15           O 1
+ATOM   1302  OE2 GLU B  65      24.816  34.555  -2.383  1.00 33.21           O 1
+ATOM    904   CG TYR B  14      22.711  36.480   1.089  1.00 11.68           C 0
+ATOM    903   CB TYR B  14      21.629  35.571   0.570  1.00  9.80           C 0
+ATOM   1300   CD GLU B  65      24.156  33.788  -3.101  1.00 28.14           C 0
+ATOM    905  CD1 TYR B  14      22.415  37.788   1.424  1.00 12.44           C 0
+ATOM    907  CE1 TYR B  14      23.372  38.673   1.925  1.00 15.68           C 0
+ATOM    908  CE2 TYR B  14      24.985  36.911   1.709  1.00 22.21           C 0
+ATOM    931    O GLY B  17      19.804  39.775  -0.239  1.00 11.79           O 0
+ATOM    909   CZ TYR B  14      24.666  38.211   2.043  1.00 18.15           C 0
+ATOM    906  CD2 TYR B  14      24.015  36.040   1.242  1.00 19.21           C 0
+ATOM    920   CA GLU B  16      16.928  35.636  -3.197  1.00 12.25           C 0
+ATOM    902    O TYR B  14      20.003  33.025   0.417  1.00 12.04           O 0
+ATOM   1299   CG GLU B  65      23.576  32.530  -2.511  1.00 17.12           C 0
+ATOM   1342   CE LYS B  70      22.576  32.077  -6.382  1.00 46.03           C 0
+ATOM   1277   CB GLU B  63      18.387  31.961  -5.572  1.00 22.91           C 0
+ATOM   1276    O GLU B  63      17.820  31.927  -2.643  1.00 15.49           O 0
+ATOM    919    N GLU B  16      17.157  34.704  -2.106  1.00 10.54           N 0
+ATOM   1294    N GLU B  65      21.767  31.046  -0.698  1.00 11.91           N 0
+ATOM   1275    C GLU B  63      18.283  31.020  -3.283  1.00 13.75           C 0
+TER
+END
