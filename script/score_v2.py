@@ -19,7 +19,7 @@ liste_finale = []
 dic = {}
 
 for fileName in pdb_files:
-	structure_id = fileName.rsplit('/', 1)[1][0:13]
+	structure_id = fileName.rsplit('/', 1)[1][:-5]
 	pdb_obj = PDB(fileName)
 	liste = []
 	for res in pdb_obj : 
@@ -29,7 +29,6 @@ for fileName in pdb_files:
 	       ch = atm.chnLbl()
 	       atom = string.join([resNum,ch,atmNm],"_")
 	       liste.append(atom)
-
 	liste_finale.append(liste)
 	dic[structure_id] = liste
 
@@ -42,9 +41,9 @@ dic_score = {}
 
 for k in range(0,len(dic.keys())):
 	for l in range(k+1,len(dic.keys())):
-		nbrIntersect = len(set(dic.keys()[k]).intersection(dic.keys()[l]))
-		nbrAtom1 = len(dic.keys()[k])
-		nbrAtom2 = len(dic.keys()[l])
+		nbrIntersect = len(set(dic.values()[k]).intersection(dic.values()[l]))
+		nbrAtom1 = len(dic.values()[k])
+		nbrAtom2 = len(dic.values()[l])
 		y = float(nbrIntersect)/(nbrAtom1+nbrAtom2-nbrIntersect)
 		Sc = float("{0:.4f}".format(y))
 		dic_score[dic.keys()[k]+';'+dic.keys()[l]]= Sc
@@ -55,7 +54,7 @@ for k in range(0,len(dic.keys())):
 
 dt = pd.DataFrame (dic_score.items(), columns=['poches', 'score'])
 
-dt.to_csv('score.csv')
+dt.to_csv('score3.csv')
 
 
 

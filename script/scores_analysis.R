@@ -1,14 +1,17 @@
-dt = read.table("score.csv",sep = ",", header = T)
+getwd()
+dt = read.table("/home/hecini/Research/stage_HECINI/script/score2.csv",sep = ",", header = T)
 dt = dt[,2:3]
 library(stringr)
 dt_new = as.data.frame(str_split_fixed(dt$poches, ";", 2))
 df = cbind(dt_new,dt[,2])
 colnames(df)[3] = 'scores'
 
+
 ################## Row and colnames #####################
 
 vec = unique(df[,1])
 vec2 = unique(df[,2])
+length(vec)
 
 ################## CREATION DE LA MATRICE ###############
 
@@ -63,35 +66,109 @@ map = pheatmap(Mat,  border_color      = NA,
          show_rownames     = FALSE,
          annotation_colors = mat_colors,
          fontsize          = 8,
-         main              = "HeatMap")
+         main              = "HeatMap" )
 
 
-#######################     clusters     ######################################
+mat.dist = as.dist(1-Mat)
+map = pheatmap(Mat,
+#color = inferno(50),
+show_colnames     = FALSE,
+show_rownames     = FALSE,
+fontsize          = 8,
+main              = "HeatMap",
+clustering_distance_rows = mat.dist,
+clustering_distance_cols = mat.dist,
+clustering_method = "ward.D2")
 
-poches_clust =  cbind(Mat, cluster = cutree(map$tree_row, k = 10))
+hc = hclust(as.dist(1-Mat), method="ward.D2")
 
-#clust = as.data.frame(poches_clust[,184])
+plot(hc)
 
 
 
+
+### score moyen par groupe ####
+
+par(mfrow = c(3,2))
+for (c in seq(1.1 , 3 , by = 0.1)){
+groupes=cutree(hc,h=c)
+nbr_groupes = max(groupes[])
+vect_score = NULL
+for (groupe in 1:nbr_groupes){
+nbr_ind = length(which(sort(groupes)[] == groupe))
+groupe_cluster = which(sort(groupes)[] == groupe)
+s = 0
+comp = 0
+moy = 0
+for (ind in 1:(nbr_ind-1)){
+deb = ind
+for(ind2 in (deb+1):nbr_ind){
+s = s + score(names(groupe_cluster[ind]),names(groupe_cluster[ind2]),df)
+comp = comp+1
+}
+}
+moy = (s/comp)
+vect_score = c(vect_score,moy)
+}
+plot(c(1:nbr_groupes), vect_score , xlab = as.character(c))
+abline(h = mean(vect_score), col = 2)
+print(c)
+print(sum ((vect_score - mean(vect_score))^2)/length(vect_score))
+}
+
+
+# couper 
+
+
+
+taille = max(groupes=cutree(hc,h=1.3))
+groupes=cutree(hc,h=1.3)
+sort(groupes[])
+
+
+
+#numbre d'individus par cluster 
+
+
+
+for (x in 1:max(groupes[])){
+print(as.character(x))
+print(length(which(sort(groupes[]) == x)))
+
+}
+
+
+
+## récupếrer les membres des clusters
+
+nac = names(which(sort(groupes[]) == 9))
+writeLines(nac, sep = " ")
+
+
+
+
+# étude de la variabilité ! 
+
+
+var_data = list()
+
+for(v in 1:taille){
   
-
-library(NbClust)
-
-as.matrix(Mat)
-
-NbClust(as.data.frame(Mat), distance = "euclidean", method = "ward.D2")
-
-
-
-########################### des tests ... ####################################
+  nac = names(which(sort(groupes[]) == v))
+  print(as.character(v))
+  writeLines(nac, sep = " ")
+  var_data[[v]] = apply(data_new[nac,], 2, sd)
+  
+}
 
 
-df["3S45_pocket0_",2]
+big_data = as.data.frame(do.call(rbind, var_data))
 
-x = df[which(df[,1]== "3S45_pocket0_") ,]
+par(mfrow = c(3,2))
 
-x[which(x[,2] == "3ECG_pocket5_") ,3]
+for(b in 1:37){
+  plot(c(1:24),big_data[,b], xlab = colnames(big_data)[b])
+  }
 
-y = df[which(df[,1]== "3S45_pocket0_") ,]
 
+head(big_data)[,1:6]
