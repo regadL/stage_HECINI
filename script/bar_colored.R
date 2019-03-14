@@ -48,12 +48,15 @@ n_poche_numbers <- length(unique(poche_number))
 
 cols_11 <- colorspace::rainbow_hcl(n_poche_numbers, c = 70, l  = 50)
 
+
 col_poche_number <- cols_11[poche_number]
 
 
 # extra: showing the various clusters cuts 
 
-k234 <- cutree(dend, h = c(1.9,2,2.1))
+k234 <- cutree(dend, h = c(1.3,1.5,1.6))
+
+
 
 #names(clusters_Desc) = gsub(".desc", replacement = "", names(clusters_Desc) )
 
@@ -66,7 +69,7 @@ labels_colors(dend) <- col_poche_number[order.dendrogram(dend)]
 
 # color branches based on cutting the tree into 22 clusters:
 
-dend <- color_branches(dend, k = 14)
+dend <- color_branches(dend, k = 23)
 
 ### plots
 
@@ -74,7 +77,7 @@ par(mar = c(17,4,1,1))
 
 plot(dend)
 
-colored_bars(cbind(k234[,], col_poche_number[]), dend, rowLabels = c(paste0("h = ", c(1.9,2,2.1))))
+colored_bars(cbind(k234[,], col_poche_number[]), dend, rowLabels = c(paste0("h = ", c(1.3,1.5,1.6))))
 
 #colored_bars( as.matrix(cbind(dt_test,col_poche_number)) ,  dend)
 

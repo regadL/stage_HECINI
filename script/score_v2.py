@@ -16,7 +16,7 @@ import pandas as pd # pour transformer le dictionnaire en dataFrame
 
 
 
-pdb_files = glob('/home/hecini/Research/stage_HECINI/data/PR2/pdb_new/pockets/*.pdb')
+pdb_files = glob('/home/hecini/Research/stage_HECINI/data/PR2/pdb_new/score_repr/*.pdb')
 liste_finale = []
 dic = {}
 
@@ -56,7 +56,7 @@ for k in range(0,len(dic.keys())):
 
 dt = pd.DataFrame (dic_score.items(), columns=['poches', 'score'])
 
-dt.to_csv('nscore.csv')
+dt.to_csv('score_rep.csv')
 
 
 

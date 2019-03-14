@@ -90,30 +90,49 @@ plot(hc)
 ### score moyen par groupe ####
 
 #par(mfrow = c(3,2))
+
+
 for (c in seq(1.1 , 3 , by = 0.1)){ #des valeurs de H differentes 
+  
 groupes=cutree(hc,h=c) # je coupe 
+
 nbr_groupes = max(groupes[]) # la nombre de clusters générés 
+
 vect_score = NULL
+
 for (groupe in 1:nbr_groupes){ # pour chaque cluster 
-nbr_ind = length(which(sort(groupes)[] == groupe)) # je calcule le nombre d'inv par cluster
-groupe_cluster = which(sort(groupes)[] == groupe) #le nom de mes individus 
-s = 0
-comp = 0
-moy = 0
+  
+  nbr_ind = length(which(sort(groupes)[] == groupe)) # je calcule le nombre d'inv par cluster
+  
+  groupe_cluster = which(sort(groupes)[] == groupe) #le nom de mes individus 
+  
+  s = 0
+  
+  comp = 0
+   
+  moy = 0
+  
 for (ind in 1:(nbr_ind-1)){
-deb = ind
-for(ind2 in (deb+1):nbr_ind){
-s = s + score(names(groupe_cluster[ind]),names(groupe_cluster[ind2]),df)
-comp = comp+1
-}
-}
+  deb = ind
+  for(ind2 in (deb+1):nbr_ind){
+    s = s + score(names(groupe_cluster[ind]),names(groupe_cluster[ind2]),df)
+    comp = comp+1
+    }
+    }
 moy = (s/comp)
+
 vect_score = c(vect_score,moy)
+
 }
+
 plot(c(1:nbr_groupes), vect_score , xlab = as.character(c))
+
 abline(h = mean(vect_score), col = 2)
+
 print(c)
+
 print(sum ((vect_score - mean(vect_score))^2)/length(vect_score))
+
 }
 
 
@@ -121,9 +140,9 @@ print(sum ((vect_score - mean(vect_score))^2)/length(vect_score))
 
 
 
-taille = max(groupes=cutree(hc,h=1.2))
+taille = max(groupes=cutree(hc,h=1.6))
 
-groupes=cutree(hc,h=1.2)
+groupes=cutree(hc,h=1.6)
 
 sort(groupes[])
 
@@ -132,14 +151,16 @@ sort(groupes[])
 #numbre d'individus par cluster 
 
 for (x in 1:max(groupes[])){
-print(as.character(x))
-print(length(which(sort(groupes[]) == x)))
+  
+  print(as.character(x))
+  print(length(which(sort(groupes[]) == x)))
 
 }
 
 ## récupếrer les membres des clusters
 
-nac = names(which(sort(groupes[]) == 17))
+nac = names(which(sort(groupes[]) == 10))
+
 writeLines(nac, sep = " ")
 
 
@@ -182,8 +203,3 @@ for(b in 1:37){
   plot(c(1:24),big_data[,b], xlab = colnames(big_data)[b])
   }
 
-
-head(big_data)[,1:6]
-
-
-?matrix

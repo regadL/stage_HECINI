@@ -67,6 +67,12 @@ vec_somme = NULL
 
 H_couper = NULL
 
+vec_somme2 = NULL
+
+diag_somme = NULL
+
+diag_mean = NULL
+
 for (z in seq(1.1 , 3 , by = 0.1)){
   
   doc = sprintf("%s_clusters.csv",z)
@@ -77,16 +83,33 @@ for (z in seq(1.1 , 3 , by = 0.1)){
   
   somme = 0
   
+  somme2 = 0
+  
+  diag_somme = c(diag_somme,sum(diag(as.matrix(m1))))
+  diag_mean = c(diag_mean, mean(diag(as.matrix(m1))))
+  
   for(q in 2:nrow(m1)){
-    
-    for (d in 1:(q-1))
+
+    for (d in 1:(q-1)){
       
       somme = somme + m1[q,d]
+      if(m1[q,d]>10)
+        somme2=somme2+m1[q,d]
+      
+      }
+}
     
-  }
+  vec_somme2 = c(vec_somme2, somme2) 
   vec_somme = c(vec_somme, somme)
 
-}
+  
+  }
 
-plot(H_couper, vec_somme, pch = 19, col = 6, type = "b", xlab = "valeurs de H", ylab = "la somme")
 
+plot(H_couper, diag_somme, pch = 18, col = 5, type = "b", xlab = "valeurs de H", ylab = "la somme")
+points(H_couper, vec_somme, pch = 19, col = 6, type = "b", xlab = "valeurs de H", ylab = "la somme")
+points(H_couper, vec_somme2, pch = 18, col = 3, type = "b")
+points(H_couper, diag_mean, pch = 18, col = 4, type = "b")
+legend("topright", 95, legend=c("Somme de la diag", "somme de la semi matrice", 
+                       "somme des valeurs les plus importante de la semi matrice ", "moyenne de la diag "),
+       col=c(5,6,3,4), lty=1:2, cex=0.8)
