@@ -246,6 +246,36 @@ la figure là haut a été générée en utilisant le code appelé [bar_colored.
 
   ![la somme en fonction des H ](script/Méthode2_nbr_Clstr.png)
   
+#14/03/2019 
+
+- Continuer à travailler sur le clustering. 
+
+![la somme en fonction des H ](script/choix_cluster.png)
+
+- Analyse des graphiques et l'analyse des 20 fichiers CSV générés, Je trouvais que les 3 Hauteurs les plus intéressantes sont les suivantes : 
+
+![La matrice de H = 1.3 ](script/1.3_cluster.png)
+
+
+
+![La matrice de H = 1.5 ](script/1.5_cluster.png)
+
+
+
+![La matrice de H = 1.6 ](script/1.6_cluster.png)
+
+
+
+
+
+- Vert : des valeurs faibles 
+- Violet : des valeurs bonnes
+- Jaune : des valeurs importantes que l'on souhaite réduire 
+
+
+Au final j'ai décidé de travaillé avec H = 1.6 
+
+- J'ai commencé la detection des poches representatives 
 
 ```{r}
 pdb <- c("1HSI", "3S45")
